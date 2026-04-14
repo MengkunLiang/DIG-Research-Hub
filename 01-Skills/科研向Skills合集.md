@@ -59,9 +59,9 @@
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
 - [github/awesome-copilot](https://github.com/github/awesome-copilot)
 
-## 3. 我建议你们实验室的最小 Skills 组合
+## 3. 面向科研团队的最小 Skills 组合
 
-如果你们现在就想把 Skills 用起来，而不是继续只做资源收集，我建议先从这套开始：
+对于希望尽快把 Skills 用起来的科研团队，可以先从这套组合开始：
 
 1. 通用文档层：`anthropics/skills`
 2. Codex 官方层：`openai/skills`
@@ -84,10 +84,10 @@
 
 ## 5. 一个重要提醒
 
-你这轮特别强调“尽可能全面”，我同意。但全面不是把所有技能都装上，而是：
+面向公开资源库的“尽可能全面”，并不意味着把所有技能都装上，而是：
 
 1. 先把高信号技能仓库摸清楚
-2. 再按你们团队研究方向做子集
+2. 再按研究方向做子集
 3. 最后再把最常用的 skills 固化成自己的内部能力层
 
 不然很容易变成“仓库看起来很大，但团队没人真的用”。

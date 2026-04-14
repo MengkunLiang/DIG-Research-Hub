@@ -69,5 +69,5 @@
 
 - 不建议一上来就把所有资源都接进系统。先选一条主链路打通。
 - 推荐最小可用闭环：`paper-search-mcp + openreview/openreview-mcp + hbiaou/openalex-mcp + arxiv-translator + paper-qa + Zotero + Auto-Resubmit`。
-- 如果你们重点做 AI/ML、data mining 或 novelty 研究，建议直接补看 `09-方向专题` 里的三页。
+- 对 AI/ML、data mining 或 novelty 相关方向，建议直接补看 `09-方向专题` 里的三页。
 - 对 MCP 和自动写作工具，默认采用最小权限、人工 gate、证据留痕三件套。

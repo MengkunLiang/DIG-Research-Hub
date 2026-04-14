@@ -47,7 +47,7 @@
 | `pptx` | 组会、答辩、投稿汇报、展示材料高频。 | [anthropics/skills](https://github.com/anthropics/skills) |
 | `xlsx` | 表格、指标、实验结果整理很高频。 | [anthropics/skills](https://github.com/anthropics/skills) |
 | `mcp-builder` | 搭 MCP 工具层时尤其重要。 | [anthropics/skills](https://github.com/anthropics/skills) |
-| `skill-creator` | 帮你们团队把自己的方法论沉成内部 skills。 | [anthropics/skills](https://github.com/anthropics/skills) |
+| `skill-creator` | 适合把团队方法论沉淀成内部 skills。 | [anthropics/skills](https://github.com/anthropics/skills) |
 
 ## 5. Azure Skills 为什么对科研团队也值得关注
 
@@ -70,14 +70,14 @@
 链接：
 [microsoft/azure-skills](https://github.com/microsoft/azure-skills)
 
-## 6. 如果你们团队做的是 AI/ML / data mining，我建议的安装顺序
+## 6. 面向 AI/ML / data mining 团队的安装顺序建议
 
 1. `anthropics/skills`
 2. `Orchestra-Research/AI-Research-SKILLs`
 3. `openai/skills`
 4. `huggingface/skills`
 5. `microsoft/azure-skills`
-6. 再按你们自己的框架栈追加专门 skills
+6. 再按具体框架栈追加专门 skills
 
 ## 7. 对实验室更实用的一个判断标准
 
@@ -89,4 +89,4 @@
 4. 结果整理与图表输出
 5. 失败排查与复现实验
 
-如果一个 skill 很酷，但对你们真实实验流水线没有稳定价值，就先别装进主链路。
+如果一个 skill 很酷，但对真实实验流水线没有稳定价值，就不必优先放进主链路。

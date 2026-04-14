@@ -12,7 +12,7 @@
 | Agent Skills 规范库 | 规范与样例入口 | 除了 `agentskills.io` 外，`agentskills/agentskills` 是看规范与参考实现的最佳 GitHub 入口。 | [agentskills/agentskills](https://github.com/agentskills/agentskills) |
 | Hugging Face Skills | 技能组织页 | Hugging Face 把技能做成了跨 Claude/Codex/Gemini/Cursor 的通用包。 | [hf-skills](https://huggingface.co/hf-skills) |
 | HF Skill Finder | 技能发现工具 | 查 Hugging Face skills 时很顺手。 | [hf-skills/skill-finder](https://huggingface.co/spaces/hf-skills/skill-finder) |
-| OpenHands Global Skills | 公共 registry | 如果你同时关注 OpenHands 生态，这个公共 registry 很值得长期跟。 | [OpenHands/skills](https://github.com/OpenHands/skills) |
+| OpenHands Global Skills | 公共 registry | 对 OpenHands 生态感兴趣时，这个公共 registry 很值得长期跟踪。 | [OpenHands/skills](https://github.com/OpenHands/skills) |
 | OpenHands Skills 文档 | 文档 | 说明公共 skills 如何触发、如何贡献。 | [OpenHands Docs](https://docs.openhands.dev/usage/prompting/microagents-public) |
 | Ai-Agent-Skills | 替代安装器 | 提供“一次装到多个 agent”的安装思路，适合关注生态分发演化。 | [skillcreatorai/Ai-Agent-Skills](https://github.com/skillcreatorai/Ai-Agent-Skills) |
 
@@ -46,7 +46,7 @@
 | Claude Skills MCP Server | 历史桥接工具 | 早期用 MCP 做 skills 检索与向量搜索的桥接项目。项目说明里已明确“不再托管或维护”，但很适合理解早期生态演化。 | [K-Dense-AI/claude-skills-mcp](https://github.com/K-Dense-AI/claude-skills-mcp) |
 | Skill Builder | 构建型 skill | 用 Skill 帮你继续写 Skill，适合实验室把内部能力沉成模板。 | [metaskills/skill-builder](https://github.com/metaskills/skill-builder) |
 
-## 5. 如果你要持续补库，我建议这样扫
+## 5. 持续补库时可按这个顺序扫描
 
 ### 第一层：先扫“官方与标准”
 
@@ -75,7 +75,7 @@
 
 1. 有没有稳定的发现入口
 2. 有没有官方或高维护信号
-3. 有没有和你们研究任务直接相关的具体 skill bundle
+3. 有没有和目标研究任务直接相关的具体 skill bundle
 4. 有没有说明这个 skill 到底适合什么场景
 
-所以这页最适合持续追加，尤其适合作为你们仓库里“扫新入口”的长期页面。
+所以这页最适合持续追加，尤其适合作为公开资源库里的“扫新入口”长期页面。

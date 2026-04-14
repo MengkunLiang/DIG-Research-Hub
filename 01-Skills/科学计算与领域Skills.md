@@ -22,7 +22,7 @@
 | Scientific Integrations | 15+ 平台集成，如 Benchling、DNAnexus、OMERO、Protocols.io | 适合更真实的科研平台协同。 |
 | Analysis & Communication | 20+ 分析和沟通 skills，如文献综述、scientific writing、peer review、document processing | 说明它不是纯计算库，而是完整科研工作流能力层。 |
 
-这个仓库特别适合你们这种既做 AI/ML / data mining，又希望覆盖更广 scientific computing 场景的团队。
+这个仓库尤其适合同时关注 AI/ML / data mining 和更广 scientific computing 场景的团队。
 
 ## 3. Scientific Agent Skills 的覆盖面为什么很值得单独收录
 
@@ -36,7 +36,7 @@
 | Analysis & Communication Tools | literature review、scientific writing、posters、slides、schematics 等 | 说明它不仅覆盖计算，也覆盖输出。 |
 | Research & Clinical Tools | hypothesis generation、grant writing、clinical decision support 等 | 对更复杂的科研流程尤其有价值。 |
 
-## 4. Scientific Agent Skills 里最值得你们团队重点关注的领域
+## 4. Scientific Agent Skills 里最值得重点关注的领域
 
 | 领域 | 代表能力 | 链接 |
 | --- | --- | --- |
@@ -61,7 +61,7 @@
 | `think_deeply` | 防止确认式回答 | 虽然不是学科技能，但对研究推理质量非常有帮助。 | [brunoasm/my_claude_skills](https://github.com/brunoasm/my_claude_skills) |
 | Materials Simulation Skills | 计算材料与模拟 | 数值稳定性、时间步长、线性求解器、网格与后处理。 | [HeshamFS/materials-simulation-skills](https://github.com/HeshamFS/materials-simulation-skills) |
 
-## 6. 你们团队可以怎么选
+## 6. 面向不同研究方向的选择方式
 
 ### 如果主要做 AI / ML / data mining
 
@@ -90,7 +90,7 @@
 3. `my_claude_skills`
 4. `materials-simulation-skills`
 
-## 7. 我最建议你们长期维护的方式
+## 7. 更适合作为公开资源库的维护方式
 
 对领域 skills，不建议只按“仓库名”收。更实用的是按下面三层持续补：
 
@@ -98,4 +98,4 @@
 2. Python 包 / 计算框架 skills
 3. 完整领域 workflow skills
 
-这样以后无论你们是补生物、材料、地理还是社会计算，都能持续往下长。
+这样以后无论是补生物、材料、地理还是社会计算，都能持续往下扩展。

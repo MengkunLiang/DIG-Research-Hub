@@ -53,7 +53,7 @@
 | `avoid-ai-writing` | 去除过度 AI 味写作模式，适合后期 polish。 | [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection) |
 | `notebooklm-skill` | 从个人知识库中拿 source-grounded 答案，适合内部文档、长项目资料、课程包、实验记录。 | [PleasePrompto/notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) |
 
-## 5. 如果你们要做论文工作流，我建议的组合
+## 5. 面向论文工作流的推荐组合
 
 ### 路线 A：单篇精读与提炼
 
