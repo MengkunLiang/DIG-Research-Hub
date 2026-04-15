@@ -12,6 +12,7 @@
 | Anthropic Skills | 官方通用技能包 | `pdf/docx/pptx/xlsx` 对科研团队高频，`mcp-builder` 和 `skill-creator` 对平台建设也很重要。 | [anthropics/skills](https://github.com/anthropics/skills) |
 | Azure Skills | 云端与 AI 平台技能包 | 对需要云训练、推理、资源诊断、成本分析、Foundry/MCP 集成的团队很有帮助。 | [microsoft/azure-skills](https://github.com/microsoft/azure-skills) |
 | Vercel Agent Skills | 研发辅助技能包 | 不直接面向科学实验，但对研究网站、demo、可视化页面、实验展示前端很实用。 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| OpenHands Skills | 技能文档与注册表 | 适合把技能化执行扩展到软件代理与实验代理。 | [OpenHands Skills Docs](https://docs.openhands.dev/overview/skills/overview) |
 
 ## 2. AI Research SKILLs 最值得关注的覆盖面
 
@@ -70,7 +71,20 @@
 链接：
 [microsoft/azure-skills](https://github.com/microsoft/azure-skills)
 
-## 6. 面向 AI/ML / data mining 团队的安装顺序建议
+## 6. 对实验执行和 benchmark 更直接有帮助的 Skill 入口
+
+| 资源 | 类型 | 更适合的用途 | 链接 |
+| --- | --- | --- | --- |
+| `hf_model_evaluation` | HF Skill | 跑模型评测、汇总指标和结果。 | [huggingface/skills](https://github.com/huggingface/skills) |
+| `hf-llm-trainer` | HF Skill | 搭建训练、微调和资源估算流程。 | [huggingface/skills](https://github.com/huggingface/skills) |
+| `hf_dataset_creator` | HF Skill | 数据集草案、字段规划和 Hub 对接。 | [huggingface/skills](https://github.com/huggingface/skills) |
+| `hf-cli` | HF Skill | 模型、数据和 artifact 管理。 | [Hugging Face Agents Skills](https://huggingface.co/docs/hub/agents-skills) |
+| `mcp-builder` | Anthropic Skill | 把实验平台和脚本包装成 MCP。 | [anthropics/skills](https://github.com/anthropics/skills) |
+| `xlsx` | Anthropic Skill | 把大量实验结果整理成表格。 | [anthropics/skills](https://github.com/anthropics/skills) |
+| skills.sh | Skill 发现平台 | 快速扫公开 skill 包和能力目录。 | [skills.sh](https://skills.sh/) |
+| awesome-agent-skills | Skill 合集 | 继续补充公开 skill 生态和案例。 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) |
+
+## 7. 面向 AI/ML / data mining 团队的安装顺序建议
 
 1. `anthropics/skills`
 2. `Orchestra-Research/AI-Research-SKILLs`
@@ -79,7 +93,7 @@
 5. `microsoft/azure-skills`
 6. 再按具体框架栈追加专门 skills
 
-## 7. 对实验室更实用的一个判断标准
+## 8. 对实验室更实用的一个判断标准
 
 要优先保留那些能直接增强下面这些环节的 skills：
 

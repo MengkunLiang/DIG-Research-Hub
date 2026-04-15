@@ -11,6 +11,11 @@
 | Playwright MCP | 网页自动化 | 适合自动登录平台、抓取实验面板、浏览论文官网和交互式网页。 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
 | Chart MCP Server | 图表生成 | 适合把实验结果快速整理成可读图表。 | [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) |
 | MarkItDown | 文档与附件预处理 | 适合把附件、表格、截图与 Office 文档转换为 Markdown 进入后续分析链路。 | [microsoft/markitdown](https://github.com/microsoft/markitdown) |
+| GitMCP | 公共仓库文档访问 | 适合快速读取 benchmark 仓库、README、配置和示例。 | [idosal/git-mcp](https://github.com/idosal/git-mcp) |
+| Optuna MCP Server | HPO 与 study 分析 | 适合发起 study、读取 trial、分析优化结果和可视化。 | [optuna/optuna-mcp](https://github.com/optuna/optuna-mcp) |
+| Prefect MCP Server | workflow 观察 | 适合读取 flow run、deployment、日志和调度状态。 | [PrefectHQ/prefect-mcp-server](https://github.com/PrefectHQ/prefect-mcp-server) |
+| MCP for ZenML | pipeline 与 artifact | 适合查看 pipeline run、artifact 和触发新运行。 | [zenml-io/mcp-zenml](https://github.com/zenml-io/mcp-zenml) |
+| Docker Hub MCP | 容器与镜像发现 | 适合给实验环境与 benchmark 容器选择基础镜像。 | [docker/hub-mcp](https://github.com/docker/hub-mcp) |
 | MCP 官方 Servers | 基础能力样例 | 官方参考实现包含 `filesystem`、`fetch`、`memory` 等高频基础能力，适合理解“底层工具层”如何组织。 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) |
 
 ## 2. 数据库、分析库与检索后端
@@ -40,6 +45,8 @@
 | `github + postgres + chart` | 实验结果审查 | 适合把代码、结果库和可视化串起来。 |
 | `jupyter + motherduck/duckdb + markitdown` | 数据分析与报告 | 适合 notebook 内分析和文档化输出。 |
 | `milvus + postgres + kaggle` | RAG / 数据挖掘原型 | 适合数据集获取、结构化存储与向量检索组合。 |
+| `jupyter + optuna + chart + github` | 调参与结果分析 | 适合把试验、调参和可视化串成闭环。 |
+| `github + prefect + zenml` | pipeline 观察与诊断 | 适合同时查看代码、workflow、artifact 和运行状态。 |
 
 ## 5. 选择这类 MCP 时的注意点
 

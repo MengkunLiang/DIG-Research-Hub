@@ -8,7 +8,11 @@
 | --- | --- | --- | --- |
 | MLE-bench | ML engineering benchmark | 真实感很强的 ML 工程 benchmark，适合评估 agent 是否真的能做实验、调参、修 bug、提分。 | [OpenAI - MLE-bench](https://openai.com/index/mle-bench/) |
 | MLGym | AI research agent benchmark | 专门面向机器学习研究任务的评测框架，适合对比不同 research agent。 | [MLGym 项目页](https://sites.google.com/view/mlgym) |
+| ToolSandbox | tool-use benchmark | 适合评测多轮工具调用和状态化执行。 | [apple/ToolSandbox](https://github.com/apple/ToolSandbox) |
+| ML-Dev-Bench | ML development benchmark | 直接面向模型开发、debug 和实现新想法等任务。 | [ml-dev-bench/ml-dev-bench](https://github.com/ml-dev-bench/ml-dev-bench) |
 | OpenML | 开放 ML 平台 | 提供开放数据、任务、runs 和 benchmark suites，特别适合做可复现实验和基线复用。 | [OpenML](https://openml.io/)、[OpenML Docs](https://docs.openml.org/) |
+| AutoML Benchmark | AutoML benchmarking 框架 | 适合对比 AutoML 系统和自定义 benchmark。 | [openml/automlbenchmark](https://github.com/openml/automlbenchmark) |
+| TabArena | living tabular benchmark | 适合做更强、更持续维护的 tabular ML 对照实验。 | [autogluon/tabarena](https://github.com/autogluon/tabarena) |
 | AutoGluon | AutoML 框架 | 对 tabular、multimodal 等任务很友好，适合快速建一个可靠 baseline。 | [autogluon/autogluon](https://github.com/autogluon/autogluon) |
 
 ## 2. 图学习、知识图谱与结构化数据挖掘
@@ -29,6 +33,7 @@
 | Cornac | 推荐系统框架 | 更偏研究原型和多模态推荐，适合快速做对比实验。 | [PreferredAI/cornac](https://github.com/PreferredAI/cornac) |
 | Pyserini | 检索研究工具箱 | 信息检索、dense/sparse retrieval、reranking 实验很常用。 | [castorini/pyserini](https://github.com/castorini/pyserini) |
 | BEIR | 检索 benchmark | 通用 IR benchmark，适合做跨域检索和 RAG retriever 对比。 | [beir-cellar/beir](https://github.com/beir-cellar/beir) |
+| MTEB | embedding benchmark | 适合 embedding、语义检索和多任务表示学习评测。 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) |
 
 ## 4. 异常检测、风险识别与图异常
 
@@ -36,6 +41,7 @@
 | --- | --- | --- | --- |
 | PyOD | 异常检测工具箱 | 经典 outlier / anomaly detection 工具箱，做 data mining 基线非常高效。 | [yzhao062/pyod](https://github.com/yzhao062/pyod) |
 | PyGOD | 图异常检测 | 把 anomaly detection 扩展到 graph / relational setting，很适合图数据风控、欺诈、社区异常等任务。 | [pygod-team/pygod](https://github.com/pygod-team/pygod) |
+| ADBench | 异常检测 benchmark | 适合系统比较 anomaly detection 算法、噪声设置和鲁棒性。 | [Minqi824/ADBench](https://github.com/Minqi824/ADBench) |
 
 ## 5. 因果推断与机制识别
 
@@ -46,6 +52,7 @@
 | DoWhy | 因果推断框架 | 强调因果图、假设显式化、识别与 refutation，适合把“研究设计”写进代码。 | [py-why/dowhy](https://github.com/py-why/dowhy) |
 | causal-learn | 因果发现 | 更偏从观测数据中学习 causal structure，适合做 exploratory discovery。 | [py-why/causal-learn](https://github.com/py-why/causal-learn) |
 | EconML | CATE / treatment effect | 偏异质性处理效应与双重机器学习，在政策评估、用户干预、个性化决策里很实用。 | [py-why/EconML](https://github.com/py-why/EconML) |
+| CausalBench | 因果发现 benchmark | 适合比较 causal discovery 算法和数据假设。 | [ravivanpong/CausalBench](https://github.com/ravivanpong/CausalBench) |
 
 ## 6. 领域数据与 benchmark 入口
 
