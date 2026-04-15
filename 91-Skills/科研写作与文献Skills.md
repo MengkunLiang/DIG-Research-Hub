@@ -53,7 +53,21 @@
 | `avoid-ai-writing` | 去除过度 AI 味写作模式，适合后期 polish。 | [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection) |
 | `notebooklm-skill` | 从个人知识库中拿 source-grounded 答案，适合内部文档、长项目资料、课程包、实验记录。 | [PleasePrompto/notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) |
 
-## 5. 面向论文工作流的推荐组合
+## 5. 对写作、审稿与投稿更直接有帮助的 Skills
+
+| Skill / 资源 | 更适合的用法 | 链接 |
+| --- | --- | --- |
+| `academic-paper` | 学术论文写作、LaTeX 输出、多格式引用转换。 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |
+| `academic-paper-reviewer` | 多角色审稿、rubric 评分和 Devil's Advocate critique。 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |
+| `academic-pipeline` | 把 research / write / integrity / review / revise 串成闭环。 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |
+| `peer-review` | 生成 structured review、weaknesses 和 response points。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
+| `citation-management` | BibTeX、引用与参考文献一致性管理。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
+| `venue-templates` | 会议与期刊模板约束整理。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
+| `hf-paper-publisher` | paper、model、dataset 和 Hub 资产联动发布。 | [huggingface/skills](https://github.com/huggingface/skills) |
+| `doc-coauthoring` / `docx` / `pptx` / `xlsx` | response、proposal、slides 和补充材料协作。 | [anthropics/skills](https://github.com/anthropics/skills) |
+| `avoid-ai-writing` | 后期去除过度 AI 味表达，适合 polish。 | [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection) |
+
+## 6. 面向论文工作流的推荐组合
 
 ### 路线 A：单篇精读与提炼
 
@@ -89,7 +103,7 @@
 3. `article-extractor`
 4. `citation-management`
 
-## 6. 一个很实用的筛选标准
+## 7. 一个很实用的筛选标准
 
 对写作类 skills，优先保留满足下面至少两条的：
 
@@ -100,7 +114,7 @@
 
 如果只是“更会写点漂亮段落”，对科研团队的长期价值通常不够高。
 
-## 7. 面向不同任务模块的优先子集
+## 8. 面向不同任务模块的优先子集
 
 ### 文献检索与单篇精读
 

@@ -42,6 +42,9 @@
 | `zotero + markitdown + notion` | 私有文库与知识库 | 适合把本地文献库、附件与笔记整理到统一工作流。 |
 | `arxiv-latex + crossref + zotero` | 精读与引用核对 | 适合公式精读、引用补全与正式元数据校验。 |
 
+写作、协作与投稿相关 MCP 见：
+[写作协作与投稿MCP](./写作协作与投稿MCP.md)
+
 ## 5. 选择这类 MCP 时的注意点
 
 1. 文献类 MCP 优先选择返回 DOI、ArXiv ID、PMID、OpenAlex ID、OpenReview Note ID 等可验证标识符的实现。
