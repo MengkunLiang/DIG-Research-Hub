@@ -17,7 +17,7 @@
 - [96-实验与评测/实验执行与复现](../96-实验与评测/实验执行与复现.md)
 - [96-实验与评测/评测与Benchmark](../96-实验与评测/评测与Benchmark.md)
 - [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md)
-- [09-方向专题/AI-ML-DataMining资源](../09-方向专题/AI-ML-DataMining资源.md)
+- [08-方向专题/AI-ML-DataMining资源](../08-方向专题/AI-ML-DataMining资源.md)
 
 ## 一、相关 Skills
 
@@ -121,4 +121,4 @@
 
 - [04-新颖性判断与综述](../04-新颖性判断与综述/README.md)
 - [06-写作、审稿与投稿](../06-写作、审稿与投稿/README.md)
-- [09-方向专题/AI-ML-DataMining资源](../09-方向专题/AI-ML-DataMining资源.md)
+- [08-方向专题/AI-ML-DataMining资源](../08-方向专题/AI-ML-DataMining资源.md)

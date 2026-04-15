@@ -13,7 +13,7 @@
 
 - [新颖性判断、综述与评审工具详表](./新颖性判断、综述与评审工具详表.md)
 - [新颖性、同行评审数据集与Benchmark](./新颖性、同行评审数据集与Benchmark.md)
-- [09-方向专题/科研新颖性与Idea生成](../09-方向专题/科研新颖性与Idea生成.md)
+- [08-方向专题/科研新颖性与Idea生成](../08-方向专题/科研新颖性与Idea生成.md)
 - [94-Prompt与写作/系统综述与证据综合](../94-Prompt与写作/系统综述与证据综合.md)
 - [01-课题扫描与选题](../01-课题扫描与选题/README.md)
 
@@ -55,7 +55,7 @@
 
 | 资源 | 类型 | 适合环节 | 简述 | 链接 |
 | --- | --- | --- | --- | --- |
-| 科研新颖性与Idea生成 | 仓库内专题 | 专题总览 | 当前仓库里 novelty、idea generation 和 review mining 的主归属页。 | [09-方向专题/科研新颖性与Idea生成](../09-方向专题/科研新颖性与Idea生成.md) |
+| 科研新颖性与Idea生成 | 仓库内专题 | 专题总览 | 当前仓库里 novelty、idea generation 和 review mining 的主归属页。 | [08-方向专题/科研新颖性与Idea生成](../08-方向专题/科研新颖性与Idea生成.md) |
 | 系统综述与证据综合 | 仓库内附录 | 综述工具总览 | 当前仓库里系统综述与 evidence synthesis 的主归属页。 | [94-Prompt与写作/系统综述与证据综合](../94-Prompt与写作/系统综述与证据综合.md) |
 | llm4novelty / NovBench | novelty benchmark | novelty 评估 | 这是当前最应该优先看的 novelty 专题资源之一，聚焦“学术论文新颖性评估”本身。 | [njust-winchy/llm4novelty](https://github.com/njust-winchy/llm4novelty) |
 | ReviewAdvisor | 审稿分析工具 | review mining | 适合抽取和分析审稿意见、关注点与反馈模式。 | [neulab/ReviewAdvisor](https://github.com/neulab/ReviewAdvisor) |

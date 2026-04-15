@@ -72,4 +72,4 @@
 5. 最后再把 benchmark、CI 和回归测试绑起来，形成持续评测闭环。
 
 补充专题页：
-[AI-ML-DataMining资源](../09-方向专题/AI-ML-DataMining资源.md)
+[AI-ML-DataMining资源](../08-方向专题/AI-ML-DataMining资源.md)
