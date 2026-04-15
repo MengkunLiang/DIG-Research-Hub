@@ -18,7 +18,7 @@
 | Claude Code Skills | 官方实现文档 | 讲清楚 `.claude/skills/`、`allowed-tools`、插件技能、团队共享等实际做法。 | [Claude Code Docs](https://docs.claude.com/en/docs/claude-code/skills) |
 | Agent Skills in the SDK | SDK 文档 | 对后续计划自行做 agent runtime 或 SDK 集成的场景，这页很重要。 | [Claude Agent SDK Docs](https://docs.claude.com/en/docs/agent-sdk/skills) |
 | Anthropic Engineering Blog | 架构与最佳实践 | 官方工程博客，解释 Skills 为什么从“提示词”升级成“文件夹 + 脚本 + 资源”的能力层。 | [Anthropic Blog](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) |
-| OpenAI Skills Catalog | Codex 官方目录 | `openai/skills` 是 Codex 的公开技能目录，能帮助你从 Codex 视角理解 curated / experimental / system skills。 | [openai/skills](https://github.com/openai/skills) |
+| OpenAI Skills Catalog | Codex 官方目录 | `openai/skills` 是 Codex 的公开技能目录，适合从 Codex 视角理解 curated / experimental / system skills。 | [openai/skills](https://github.com/openai/skills) |
 | GitHub Copilot Skills | 跨平台采纳 | GitHub 已明确把 Agent Skills 视为开放标准，并支持 `.github/skills` 与 `.claude/skills`。 | [GitHub Docs](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills) |
 | GitHub Copilot CLI 创建 Skills | 操作文档 | 对计划把同一套技能同时供 Copilot / Claude / Codex 使用的场景，这页很有参考价值。 | [GitHub Docs](https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/create-skills) |
 | Hugging Face Skills 文档 | 跨平台技能文档 | Hugging Face 把 Skills 明确做成面向 Claude Code、Codex、Gemini、Cursor 的跨平台包。 | [HF Hub Docs](https://huggingface.co/docs/hub/agents-skills) |

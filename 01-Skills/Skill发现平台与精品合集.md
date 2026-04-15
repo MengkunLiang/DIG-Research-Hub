@@ -1,6 +1,6 @@
 # Skill 发现平台与精品合集
 
-这一页专门解决一个现实问题：就算你已经知道 Skills 很重要，也很容易被碎片化仓库淹没。这里我把“发现平台、安装工具、精品合集、历史桥接工具”单独拆出来，方便后续持续扫新。
+这一页专门解决一个现实问题：即使已经知道 Skills 很重要，也很容易被碎片化仓库淹没。这里把“发现平台、安装工具、精品合集、历史桥接工具”单独拆出来，方便后续持续扫新。
 
 ## 1. 发现平台与安装入口
 
@@ -44,7 +44,7 @@
 | 资源 | 状态 | 简述 | 链接 |
 | --- | --- | --- | --- |
 | Claude Skills MCP Server | 历史桥接工具 | 早期用 MCP 做 skills 检索与向量搜索的桥接项目。项目说明里已明确“不再托管或维护”，但很适合理解早期生态演化。 | [K-Dense-AI/claude-skills-mcp](https://github.com/K-Dense-AI/claude-skills-mcp) |
-| Skill Builder | 构建型 skill | 用 Skill 帮你继续写 Skill，适合实验室把内部能力沉成模板。 | [metaskills/skill-builder](https://github.com/metaskills/skill-builder) |
+| Skill Builder | 构建型 skill | 用 Skill 继续写 Skill，适合实验室把内部能力沉成模板。 | [metaskills/skill-builder](https://github.com/metaskills/skill-builder) |
 
 ## 5. 持续补库时可按这个顺序扫描
 
@@ -69,7 +69,7 @@
 - 学术写作与审稿
 - 生物信息 / 医学 / 材料 / 物理 / 地理等领域技能
 
-## 6. 我对“全面收录”的建议
+## 6. 对“全面收录”的建议
 
 技能目录页最容易越来越大，但真正高价值的不是“仓库数”，而是：
 

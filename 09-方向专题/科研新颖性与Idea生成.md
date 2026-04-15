@@ -1,12 +1,12 @@
 # 科研新颖性与 Idea 生成
 
-这一页专门补“新颖性判断、idea 生成、peer-review 结构化分析”这一条线。对于做 `ResearchOS` 的团队，这一页很关键，因为它决定系统能不能从“会检索”进一步走向“会发现空白、会判断 novelty、会辅助构思研究问题”。
+这一页专门补“新颖性判断、idea 生成、peer-review 结构化分析”这一条线。它关系到科研系统能否从“会检索”进一步走向“会发现空白、会判断 novelty、会辅助构思研究问题”。
 
 ## 1. 直接相关的 novelty / idea 资源
 
 | 资源 | 类型 | 简述 | 链接 |
 | --- | --- | --- | --- |
-| NovBench / llm4novelty | novelty benchmark | 你这次点名的资源。围绕学术论文 novelty assessment 构建数据与代码，适合直接拿来做“新颖性判断”基线。 | [njust-winchy/llm4novelty](https://github.com/njust-winchy/llm4novelty) |
+| NovBench / llm4novelty | novelty benchmark | 围绕学术论文 novelty assessment 构建数据与代码，适合直接做“新颖性判断”基线。 | [njust-winchy/llm4novelty](https://github.com/njust-winchy/llm4novelty) |
 | AI Co-Scientist | 科研 idea 生成系统 | Google Research 的公开项目页面，核心价值是把 idea generation、reflection、ranking、evidence retrieval 串成一个科学假设生成闭环。 | [Google Research Blog](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/) |
 | Can LLMs Generate Novel Research Ideas? | 人类对照研究 | 这篇工作很适合做“LLM 生成研究 idea 到底行不行”的参考起点，强调和人类研究者 head-to-head 比较。 | [OpenReview](https://openreview.net/forum?id=M23dTGWCZy) |
 | HypoGeniC | hypothesis generation | Chicago HAI 的 hypothesis generation 项目，强调“从数据中提出可迁移假设，再做 OOD 验证”，很适合借鉴 idea discovery 的程序化流程。 | [项目页](https://chicagohai.github.io/hypogenic-demo/) |
@@ -23,7 +23,7 @@
 | NLPeer | peer review 数据资源 | 统一了多会议、多来源 peer review 研究数据，是做 review mining、novelty sentence identification 的基础资源。 | [UKPLab/nlpeer](https://github.com/UKPLab/nlpeer) |
 | Identifying Aspects in Peer Reviews | review aspect 数据 | 对 peer review 中的具体 aspect 做结构化识别，适合扩展 novelty / weakness / significance 等维度。 | [UKPLab/emnlp2025-aspects-in-reviews](https://github.com/UKPLab/emnlp2025-aspects-in-reviews) |
 | OpenReview | 审稿平台与数据入口 | 很多 AI 顶会的审稿、讨论、版本演化都能从这里拿到公开数据。 | [OpenReview](https://openreview.net/) |
-| OpenReview MCP | MCP 接入层 | 如果你要把 novelty 判断放进 agent 工作流，MCP 接 OpenReview 是最直接的一层。 | [openreview/openreview-mcp](https://github.com/openreview/openreview-mcp) |
+| OpenReview MCP | MCP 接入层 | 若需要把 novelty 判断接入 agent 工作流，MCP 接 OpenReview 是最直接的一层。 | [openreview/openreview-mcp](https://github.com/openreview/openreview-mcp) |
 
 ## 3. 做 novelty 这一类任务时，最值得优先接的公共数据层
 
@@ -34,7 +34,7 @@
 | 论文全文与结构化文本 | novelty 常常在 introduction / related work / contributions 中显式出现 | [GROBID](https://github.com/kermitt2/grobid)、[Marker](https://github.com/VikParuchuri/marker)、[Docling](https://github.com/docling-project/docling) |
 | 最新论文流 | novelty 需要跟最新工作比较，不能只看静态语料 | [paper-search-mcp](https://github.com/openags/paper-search-mcp)、[OpenReview MCP](https://github.com/openreview/openreview-mcp)、[OpenAlex MCP](https://github.com/hbiaou/openalex-mcp) |
 
-## 4. 对 ResearchOS 最有价值的落地方向
+## 4. 最有价值的落地方向
 
 ### 方向 A：做“novelty 审计员”
 
@@ -65,7 +65,7 @@
 - novelty / feasibility / evidence 三维排序
 - reviewer-style critique
 
-## 5. 我建议你们优先补的三个能力
+## 5. 优先补齐的三个能力
 
 1. `Novelty Retrieval`
    把“相似论文检索、时间线追踪、贡献句抽取、citation neighborhood”打通。

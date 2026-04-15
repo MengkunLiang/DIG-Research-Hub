@@ -1,6 +1,6 @@
 # Computational Design Science 与管理技术交叉
 
-这一页面向你特别强调的方向：`AI / analytics / data mining` 和 `management / IS / digital innovation / decision support` 的交叉研究。这里的重点不是单一算法库，而是那些能支撑“问题发现、机制识别、实验设计、创新测量、证据组织”的公共资源。
+这一页聚焦 `AI / analytics / data mining` 与 `management / IS / digital innovation / decision support` 的交叉研究。这里的重点不是单一算法库，而是那些能支撑“问题发现、机制识别、实验设计、创新测量、证据组织”的公共资源。
 
 ## 1. 这类研究通常最需要的四层资源
 
@@ -16,7 +16,7 @@
 | OpenAlex | 学术图谱 API | 做研究主题演化、引用网络、作者机构合作、领域扩散很实用。 | [OpenAlex](https://openalex.org/) |
 | Semantic Scholar API | 学术 API | 对 citation、paper metadata、embedding 辅助任务很有价值。 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) |
 | Crossref REST API | DOI / 元数据 | 适合补论文元数据、引用信息、出版信息。 | [Crossref REST API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) |
-| OpenReview | 会议过程数据 | 如果你研究 AI 社区、审稿机制、idea 演化、学术组织行为，这个非常重要。 | [OpenReview](https://openreview.net/) |
+| OpenReview | 会议过程数据 | 对 AI 社区、审稿机制、idea 演化和学术组织行为研究非常重要。 | [OpenReview](https://openreview.net/) |
 | OSF API | 开放科学平台 | 适合接 preregistration、开放材料、项目结构化元数据。 | [developer.osf.io](https://developer.osf.io/) |
 | PatentsView / USPTO PatentSearch API | 专利与创新数据 | 做创新扩散、知识重组、技术融合、发明人网络时非常重要。注意 PatentsView 已在 2025-05-01 停用 Legacy API，并计划于 2026-03-20 迁移到 USPTO Open Data Portal。 | [PatentsView APIs](https://patentsview.org/apis/api-endpoints) |
 | The Lens | 专利 + 学术联动平台 | 做“论文到专利”的知识流动、技术转化和创新映射很实用。 | [The Lens](https://www.lens.org/) |
@@ -52,7 +52,7 @@
 | lab.js | 浏览器实验工具 | 偏设计实验原型和可视化构建，适合快速试验。 | [lab.js](https://lab.js.org/)、[FelixHenninger/lab.js](https://github.com/FelixHenninger/lab.js) |
 | PsychoPy | 心理/行为实验 | 更偏本地实验与可控实验流程。 | [psychopy/psychopy](https://github.com/psychopy/psychopy) |
 
-## 6. 如果你们做 UTD 风格管理技术交叉研究，可以重点关注的三条链
+## 6. UTD 风格管理技术交叉研究可重点关注的三条链
 
 ### 链路 A：创新与知识重组
 
@@ -101,4 +101,4 @@
 3. `Intervention Layer`
    oTree、jsPsych、lab.js、PsychoPy、MCP/Agent 工具链
 
-这样以后无论你们研究的是 AI 采纳、数字平台、创新扩散还是科研组织行为，都能很快拼出一条可执行 pipeline。
+这样以后无论研究的是 AI 采纳、数字平台、创新扩散还是科研组织行为，都能较快拼出一条可执行 pipeline。

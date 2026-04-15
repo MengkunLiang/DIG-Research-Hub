@@ -9,7 +9,7 @@
 | Claude Scientific Writer | 深研写作工具包 | 既能做 research lookup，也能生成 paper、grant、poster、slides、peer review 和 citation 管理。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
 | Academic Research Skills | 学术研究流程包 | 更强调 `research -> write -> integrity check -> review -> revise -> finalize` 的多阶段管线。 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |
 | Paper Glance Skill | 单篇论文精读技能 | 适合快速做单篇论文拆解、亮点整理、结构化阅读和输出。 | [CatVinci-Studio/paper-glance-skill](https://github.com/CatVinci-Studio/paper-glance-skill) |
-| NotebookLM Skill | 个人知识库研究技能 | 能直接查询你自己的 NotebookLM 知识库，适合组会资料、项目文档、课程材料、内部文档检索。 | [PleasePrompto/notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) |
+| NotebookLM Skill | 个人知识库研究技能 | 能直接查询 NotebookLM 知识库，适合组会资料、项目文档、课程材料与内部文档检索。 | [PleasePrompto/notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) |
 | Anthropic Skills | 官方文档技能 | 虽然不是纯学术写作仓库，但 `pdf/docx/pptx/xlsx` 是学术工作中最高频的通用技能。 | [anthropics/skills](https://github.com/anthropics/skills) |
 | Hugging Face Skills | 论文发布辅助 | `hf-paper-publisher` 对模型、数据集、论文联动发布很有帮助。 | [huggingface/skills](https://github.com/huggingface/skills) |
 
@@ -91,7 +91,7 @@
 
 ## 6. 一个很实用的筛选标准
 
-对写作类 skills，我建议优先保留满足下面至少两条的：
+对写作类 skills，优先保留满足下面至少两条的：
 
 1. 会显式做引用或来源核对
 2. 会把写作拆成步骤，而不是一口气出全文

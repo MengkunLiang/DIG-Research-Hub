@@ -1,6 +1,11 @@
 # 科研工作流与 Agent
 
-本目录聚焦科研场景里的 `Agent system / deep research / autonomous science / workflow orchestration` 资源，重点不是单个模型，而是“如何把检索、阅读、想法生成、实验执行、写作和评测组织成可复用工作流”。
+本目录按资源类型整理科研场景里的 `Agent system / deep research / autonomous science / workflow orchestration` 资源，重点不是单个模型，而是如何把检索、阅读、想法生成、实验执行、写作和评测组织成可复用工作流。
+
+优先入口：
+
+- [10-按科研子问题使用](../10-按科研子问题使用/README.md)
+- [98-全局索引/Agent与工作流索引.md](../98-全局索引/Agent与工作流索引.md)
 
 ## 目录导航
 

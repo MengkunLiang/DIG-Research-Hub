@@ -1,81 +1,51 @@
-# ResearchOS Resources
+# 科研智能体资源库
 
 更新时间：2026-04-15
 
-这是一个面向 AI 辅助科研的公开资源整理仓库，重点聚焦以下几类内容：
+本仓库面向 AI 辅助科研的公开资源整理与工作流导航。当前采用“两条主线并存”的组织方式：
 
-- Skills 与 Skill 生态
-- MCP（Model Context Protocol）与科研相关 MCP 服务器
-- 科研工作流、研究型 Agent 与开源编排框架
-- Prompt 库、学术写作、文献检索、知识管理
-- 实验执行、复现、评测与投稿辅助
-- AI/ML、data mining、novelty assessment 与 computational design science 专题资源
+- 按科研子问题使用：直接围绕选题、检索、实验、写作、投稿等任务组织资源。
+- 按资源类型查全：分别维护 Skills、MCP、Agent、Prompt、文献、实验、投稿、安全与专题页。
 
-仓库目标不是单纯堆链接，而是尽量给出一层“可落地的科研工作流视角分类”：可直接按任务选工具，也可按系统层级选底座。
+## 推荐入口
 
-## 仓库导航
+- [00-总览/按科研任务导航.md](./00-总览/按科研任务导航.md)
+- [10-按科研子问题使用/README.md](./10-按科研子问题使用/README.md)
+- [00-总览/按资源类型导航.md](./00-总览/按资源类型导航.md)
+- [98-全局索引/README.md](./98-全局索引/README.md)
+- [00-总览/收录与去重原则.md](./00-总览/收录与去重原则.md)
 
-- [00-总览/资源地图.md](./00-总览/资源地图.md)
-- [01-Skills/Skills标准与生态.md](./01-Skills/Skills标准与生态.md)
-- [01-Skills/跨平台宿主与官方技能库.md](./01-Skills/跨平台宿主与官方技能库.md)
-- [01-Skills/Skill发现平台与精品合集.md](./01-Skills/Skill发现平台与精品合集.md)
-- [01-Skills/科研向Skills合集.md](./01-Skills/科研向Skills合集.md)
-- [01-Skills/科研工程与实验Skills.md](./01-Skills/科研工程与实验Skills.md)
-- [01-Skills/科研写作与文献Skills.md](./01-Skills/科研写作与文献Skills.md)
-- [01-Skills/科学计算与领域Skills.md](./01-Skills/科学计算与领域Skills.md)
-- [02-MCP/MCP标准与发现平台.md](./02-MCP/MCP标准与发现平台.md)
-- [02-MCP/科研常用MCP清单.md](./02-MCP/科研常用MCP清单.md)
-- [02-MCP/文献检索与知识库MCP.md](./02-MCP/文献检索与知识库MCP.md)
-- [02-MCP/实验执行与数据工程MCP.md](./02-MCP/实验执行与数据工程MCP.md)
-- [02-MCP/生物医药与专利MCP.md](./02-MCP/生物医药与专利MCP.md)
-- [03-科研工作流与Agent/科研Agent系统.md](./03-科研工作流与Agent/科研Agent系统.md)
-- [03-科研工作流与Agent/自动科研与闭环系统.md](./03-科研工作流与Agent/自动科研与闭环系统.md)
-- [03-科研工作流与Agent/Deep Research与研究工作台.md](./03-科研工作流与Agent/Deep%20Research与研究工作台.md)
-- [03-科研工作流与Agent/科研工作流设计模式.md](./03-科研工作流与Agent/科研工作流设计模式.md)
-- [03-科研工作流与Agent/通用Agent框架.md](./03-科研工作流与Agent/通用Agent框架.md)
-- [04-Prompt与写作/Prompt库与教程.md](./04-Prompt与写作/Prompt库与教程.md)
-- [04-Prompt与写作/Prompt方法与官方指南.md](./04-Prompt与写作/Prompt方法与官方指南.md)
-- [04-Prompt与写作/学术写作与审稿.md](./04-Prompt与写作/学术写作与审稿.md)
-- [04-Prompt与写作/系统综述与证据综合.md](./04-Prompt与写作/系统综述与证据综合.md)
-- [05-文献检索与知识管理/文献检索与阅读.md](./05-文献检索与知识管理/文献检索与阅读.md)
-- [05-文献检索与知识管理/学术搜索与开放图谱.md](./05-文献检索与知识管理/学术搜索与开放图谱.md)
-- [05-文献检索与知识管理/引文导航与研究地图.md](./05-文献检索与知识管理/引文导航与研究地图.md)
-- [05-文献检索与知识管理/PDF解析与阅读加工.md](./05-文献检索与知识管理/PDF解析与阅读加工.md)
-- [05-文献检索与知识管理/知识管理与引用.md](./05-文献检索与知识管理/知识管理与引用.md)
-- [06-实验与评测/实验执行与复现.md](./06-实验与评测/实验执行与复现.md)
-- [06-实验与评测/评测与Benchmark.md](./06-实验与评测/评测与Benchmark.md)
-- [07-模板与投稿/模板迁移与投稿.md](./07-模板与投稿/模板迁移与投稿.md)
-- [08-安全与治理/安全治理与最佳实践.md](./08-安全与治理/安全治理与最佳实践.md)
-- [09-方向专题/科研新颖性与Idea生成.md](./09-方向专题/科研新颖性与Idea生成.md)
-- [09-方向专题/AI-ML-DataMining资源.md](./09-方向专题/AI-ML-DataMining资源.md)
-- [09-方向专题/Computational-Design-Science与管理技术交叉.md](./09-方向专题/Computational-Design-Science与管理技术交叉.md)
+## 按科研子问题使用
 
-## 按任务快速入口
+- [课题扫描与选题](./10-按科研子问题使用/课题扫描与选题.md)
+- [文献检索与单篇精读](./10-按科研子问题使用/文献检索与单篇精读.md)
+- [知识管理与证据沉淀](./10-按科研子问题使用/知识管理与证据沉淀.md)
+- [新颖性判断与综述](./10-按科研子问题使用/新颖性判断与综述.md)
+- [实验执行、复现与评测](./10-按科研子问题使用/实验执行、复现与评测.md)
+- [写作、审稿与投稿](./10-按科研子问题使用/写作、审稿与投稿.md)
 
-| 任务 | 先看哪些文件 |
-| --- | --- |
-| 想给科研 Agent 配能力 | [Skills标准与生态](./01-Skills/Skills标准与生态.md)、[跨平台宿主与官方技能库](./01-Skills/跨平台宿主与官方技能库.md)、[Skill发现平台与精品合集](./01-Skills/Skill发现平台与精品合集.md)、[科研向Skills合集](./01-Skills/科研向Skills合集.md) |
-| 想给系统接科研工具 | [MCP标准与发现平台](./02-MCP/MCP标准与发现平台.md)、[科研常用MCP清单](./02-MCP/科研常用MCP清单.md)、[文献检索与知识库MCP](./02-MCP/文献检索与知识库MCP.md)、[实验执行与数据工程MCP](./02-MCP/实验执行与数据工程MCP.md)、[生物医药与专利MCP](./02-MCP/生物医药与专利MCP.md) |
-| 想设计 ResearchOS / AutoLab / FlowAssist | [资源地图](./00-总览/资源地图.md)、[科研Agent系统](./03-科研工作流与Agent/科研Agent系统.md)、[科研工作流设计模式](./03-科研工作流与Agent/科研工作流设计模式.md) |
-| 想做文献检索、深读、知识库 | [文献检索与阅读](./05-文献检索与知识管理/文献检索与阅读.md)、[学术搜索与开放图谱](./05-文献检索与知识管理/学术搜索与开放图谱.md)、[引文导航与研究地图](./05-文献检索与知识管理/引文导航与研究地图.md)、[PDF解析与阅读加工](./05-文献检索与知识管理/PDF解析与阅读加工.md)、[知识管理与引用](./05-文献检索与知识管理/知识管理与引用.md) |
-| 想做实验、复现、评测 | [实验执行与复现](./06-实验与评测/实验执行与复现.md)、[评测与Benchmark](./06-实验与评测/评测与Benchmark.md) |
-| 想写论文、写 rebuttal、转投 | [Prompt库与教程](./04-Prompt与写作/Prompt库与教程.md)、[Prompt方法与官方指南](./04-Prompt与写作/Prompt方法与官方指南.md)、[学术写作与审稿](./04-Prompt与写作/学术写作与审稿.md)、[系统综述与证据综合](./04-Prompt与写作/系统综述与证据综合.md)、[模板迁移与投稿](./07-模板与投稿/模板迁移与投稿.md) |
-| 想减少工具风险、做治理 | [安全治理与最佳实践](./08-安全与治理/安全治理与最佳实践.md) |
-| 想做 novelty 判断、idea generation、review mining | [科研新颖性与Idea生成](./09-方向专题/科研新颖性与Idea生成.md)、[科研Agent系统](./03-科研工作流与Agent/科研Agent系统.md) |
-| 想补 AI/ML/data mining 资源池 | [AI-ML-DataMining资源](./09-方向专题/AI-ML-DataMining资源.md)、[评测与Benchmark](./06-实验与评测/评测与Benchmark.md) |
-| 想做管理+技术交叉 / computational design science | [Computational-Design-Science与管理技术交叉](./09-方向专题/Computational-Design-Science与管理技术交叉.md)、[资源地图](./00-总览/资源地图.md) |
+## 按资源类型查全
 
-## 收录原则
+- [01-Skills/README.md](./01-Skills/README.md)
+- [02-MCP/README.md](./02-MCP/README.md)
+- [03-科研工作流与Agent/README.md](./03-科研工作流与Agent/README.md)
+- [04-Prompt与写作/README.md](./04-Prompt与写作/README.md)
+- [05-文献检索与知识管理/README.md](./05-文献检索与知识管理/README.md)
+- [06-实验与评测/README.md](./06-实验与评测/README.md)
+- [07-模板与投稿/README.md](./07-模板与投稿/README.md)
+- [08-安全与治理/README.md](./08-安全与治理/README.md)
+- [09-方向专题/README.md](./09-方向专题/README.md)
 
-- 优先官方文档、官方仓库、论文主页和长期维护项目。
-- 优先能直接服务“科研工作流”的资源，而不是泛泛的 AI 工具列表。
-- 仓库说明以中文为主，但收录资源以全球公开资源为主，英文和中文链接都会纳入。
-- 对社区实现较多的方向（尤其是 MCP），优先挑选“官方 / 活跃 / 可复用”的实现。
-- 对非完全开源但公开可用的平台，会显式标注为“平台”或“公共服务”。
+## 全局索引
 
-## 使用建议
+- [Skills索引](./98-全局索引/Skills索引.md)
+- [MCP索引](./98-全局索引/MCP索引.md)
+- [Agent与工作流索引](./98-全局索引/Agent与工作流索引.md)
+- [外部导航与合集](./98-全局索引/外部导航与合集.md)
 
-- 不建议一开始就把所有资源都接进系统，先打通一条主链路通常更稳。
-- 最小可用闭环可参考：`paper-search-mcp + openreview/openreview-mcp + hbiaou/openalex-mcp + arxiv-translator + paper-qa + Zotero + Auto-Resubmit`。
-- 对 AI/ML、data mining 或 novelty 相关方向，可优先补看 `09-方向专题` 里的三页。
-- 对 MCP 和自动写作工具，默认采用最小权限、人工 gate、证据留痕三件套。
+## 仓库设计原则
+
+- 主入口优先服务“直接使用”，因此先提供任务页，再提供类型页。
+- 外部资源的详细说明尽量只写在一个主归属页，其他页面用简述加内链引用，减少重复。
+- 仓库说明以中文为主，收录对象以全球公开资源为主，英文与中文链接都会纳入。
+- 对 MCP、Skills、Agent、Prompt、数据源、Benchmark 的关系，优先在任务页里组合展示，在类型页里完整收录。

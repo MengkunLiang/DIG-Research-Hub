@@ -56,7 +56,7 @@
 | TDC | 治疗科学 benchmark | 如果团队有 AI for Science / health / drug discovery 方向，这个非常值得系统收录。 | [mims-harvard/TDC](https://github.com/mims-harvard/TDC) |
 | Papers with Code | 任务与榜单 | 适合追 benchmark、任务定义、SOTA baseline 和论文代码。 | [Papers with Code](https://paperswithcode.com/) |
 
-## 7. 适合你们团队的三条组合路线
+## 7. 适合不同研究场景的三条组合路线
 
 ### 路线 A：经典 AI/ML 实验链
 
