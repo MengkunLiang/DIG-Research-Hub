@@ -7,10 +7,12 @@
 
 | 资源 | 类型 | 简述 | 链接 |
 | --- | --- | --- | --- |
+| PaperBench | 论文复现 benchmark | 专门测 AI 代理能否从论文出发完成实现、复现实验和 rubric 驱动评分。 | [PaperBench](https://github.com/openai/frontier-evals/tree/main/project/paperbench) |
 | MLE-bench | ML engineering benchmark | 专门测 agent 是否真的能完成真实 ML engineering 任务。 | [OpenAI - MLE-bench](https://openai.com/index/mle-bench/) |
 | MLGym | ML research benchmark | 更直接面向机器学习研究任务与 research agent。 | [facebookresearch/MLGym](https://github.com/facebookresearch/MLGym) |
 | MLR-Bench | open-ended ML research benchmark | 覆盖 idea、proposal、experimentation 与 paper writing，更适合评测完整研究链路。 | [chchenhui/mlrbench](https://github.com/chchenhui/mlrbench) |
 | FML-bench | automatic ML research benchmark | 强调探索广度与基础 ML 问题，适合自动 ML 研究代理比较。 | [qrzou/FML-bench](https://github.com/qrzou/FML-bench) |
+| AiScientist | long-horizon ML research system | 更适合作为最新长时程 `paper + mle` 双轨系统参考。 | [AweAI-Team/AiScientist](https://github.com/AweAI-Team/AiScientist) |
 | Aviary | language agent gym | 提供文献、notebook、生物序列等科学任务环境。 | [Future-House/aviary](https://github.com/Future-House/aviary) |
 | LAB-Bench | scientific benchmark | 面向生物科学研究能力评测，也适合作为科学 agent 参考基准。 | [Future-House/LAB-Bench](https://github.com/Future-House/LAB-Bench) |
 | LiveDRBench | deep research benchmark | 适合评测 deep research 与 claim discovery。 | [microsoft/livedrbench](https://github.com/microsoft/livedrbench) |

@@ -6,10 +6,12 @@
 
 | 资源 | 类型 | 核心价值 | 链接 |
 | --- | --- | --- | --- |
+| PaperBench | 论文复现 benchmark | 专门评测 AI 代理能否从论文理解、实现、复现实验到 rubric 驱动评分走完整条复现链。 | [PaperBench](https://github.com/openai/frontier-evals/tree/main/project/paperbench) |
 | MLE-bench | ML engineering benchmark | 专门测 agent 是否能完成真实 ML engineering 任务，是当前最重要的 ML 代理 benchmark 之一。 | [OpenAI - MLE-bench](https://openai.com/index/mle-bench/) |
 | MLGym | AI research benchmark | 面向开放式机器学习研究任务，覆盖想法、数据、训练、分析与迭代。 | [facebookresearch/MLGym](https://github.com/facebookresearch/MLGym) |
 | MLR-Bench | open-ended ML research benchmark | 覆盖 idea、proposal、experimentation 与 paper writing，更适合评测完整研究链路。 | [chchenhui/mlrbench](https://github.com/chchenhui/mlrbench) |
 | FML-bench | automatic ML research benchmark | 强调探索广度与基础 ML 问题，适合自动 ML 研究代理比较。 | [qrzou/FML-bench](https://github.com/qrzou/FML-bench) |
+| AiScientist | long-horizon ML research engineering | 人大团队提出的长时程 ML 研究工程系统，覆盖 `paper` 与 `mle` 双轨，并把 `File-as-Bus` 作为核心协调机制。 | [AweAI-Team/AiScientist](https://github.com/AweAI-Team/AiScientist) |
 | Aviary | language agent gym | 提供文献、notebook、生物序列等科学任务环境。 | [Future-House/aviary](https://github.com/Future-House/aviary) |
 | LAB-Bench | biology research benchmark | 面向生物科学研究基础能力的科学 benchmark。 | [Future-House/LAB-Bench](https://github.com/Future-House/LAB-Bench) |
 | LiveDRBench | deep research benchmark | 适合评测 deep research、claim discovery 和研究检索闭环。 | [microsoft/livedrbench](https://github.com/microsoft/livedrbench) |
@@ -87,11 +89,12 @@
 | TabArena Leaderboard | tabular 榜单 | 适合快速看当前 tabular 模型表现与设置差异。 | [TabArena](https://tabarena.ai/) |
 | MTEB Leaderboard | embedding 榜单 | 适合快速对比 embedding 和 retrieval 模型。 | [MTEB](https://github.com/embeddings-benchmark/mteb) |
 | OpenCompass Leaderboard | 大模型榜单 | 适合多任务、多数据集和多模型对照。 | [OpenCompass](https://github.com/open-compass/opencompass) |
+| Awesome AI Scientists | 自动科研合集 | 适合继续扫自动科研、long-horizon engineering、benchmark 与 survey。 | [tsinghua-fib-lab/Awesome-AI-Scientists](https://github.com/tsinghua-fib-lab/Awesome-AI-Scientists) |
 
 ## 八、几条常用路线
 
 1. ML engineering / research agent 路线：
-   `MLE-bench + MLGym + MLR-Bench + FML-bench + ToolSandbox + LiveDRBench`
+   `PaperBench + MLE-bench + MLGym + MLR-Bench + FML-bench + ToolSandbox + LiveDRBench`
 2. tabular / AutoML 路线：
    `OpenML + OpenML-CC18 + PMLB + AutoMLBenchmark + YAHPO Gym + TabArena + AutoGluon`
 3. code / data science 路线：
@@ -104,3 +107,5 @@
    `RecBole + Cornac + Papers with Code`
 7. anomaly / causal / data-centric 路线：
    `ADBench + PyOD + CausalBench + causal-learn + EconML + DataPerf`
+8. long-horizon ML research engineering 路线：
+   `AiScientist + PaperBench + MLE-bench (+ MLE-Bench Lite 指标线)`
