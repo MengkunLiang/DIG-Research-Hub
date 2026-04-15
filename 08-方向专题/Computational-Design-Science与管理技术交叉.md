@@ -1,104 +1,88 @@
 # Computational Design Science 与管理技术交叉
 
-这一页聚焦 `AI / analytics / data mining` 与 `management / IS / digital innovation / decision support` 的交叉研究。这里的重点不是单一算法库，而是那些能支撑“问题发现、机制识别、实验设计、创新测量、证据组织”的公共资源。
+这一页聚焦 `AI / analytics / data mining` 与 `management / IS / digital innovation / decision support` 的交叉研究。重点不是单一算法库，而是把开放学术与创新数据、机制识别工具、行为实验平台、设计科学原型和公共评测资源整合成可复用的研究路线。
 
-## 1. 这类研究通常最需要的四层资源
+## 这一步通常要回答的问题
 
-1. 开放学术与创新数据
-2. 因果识别与解释工具
-3. 行为实验与在线实验工具
-4. 文献到创新再到结果变量的跨源拼接能力
+1. 哪些开放学术、专利、政策、经济与平台数据最适合做管理技术交叉研究。
+2. 哪些方法工具最适合支撑因果识别、机制解释、主题演化、网络扩散和设计科学原型。
+3. 哪些 `Skills`、`MCP`、实验平台与 survey / behavior 工具最值得优先接入。
+4. 对平台治理、数字创新、AI 辅助决策、开放科学与科研组织研究，如何快速拼出一条可执行 pipeline。
 
-## 2. 开放学术、创新与社会技术数据源
+## 推荐先看
 
-| 资源 | 类型 | 为什么值得收录 | 链接 |
+- [开放学术、创新与行为实验资源](./开放学术、创新与行为实验资源.md)
+- [03-知识管理与证据沉淀](../03-知识管理与证据沉淀/README.md)
+- [04-新颖性判断与综述](../04-新颖性判断与综述/README.md)
+- [05-实验执行、复现与评测](../05-实验执行、复现与评测/README.md)
+
+## 一、相关 Skills
+
+| 资源 | 类型 | 更适合的用途 | 链接 |
 | --- | --- | --- | --- |
-| OpenAlex | 学术图谱 API | 做研究主题演化、引用网络、作者机构合作、领域扩散很实用。 | [OpenAlex](https://openalex.org/) |
-| Semantic Scholar API | 学术 API | 对 citation、paper metadata、embedding 辅助任务很有价值。 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) |
-| Crossref REST API | DOI / 元数据 | 适合补论文元数据、引用信息、出版信息。 | [Crossref REST API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) |
-| OpenReview | 会议过程数据 | 对 AI 社区、审稿机制、idea 演化和学术组织行为研究非常重要。 | [OpenReview](https://openreview.net/) |
-| OSF API | 开放科学平台 | 适合接 preregistration、开放材料、项目结构化元数据。 | [developer.osf.io](https://developer.osf.io/) |
-| PatentsView / USPTO PatentSearch API | 专利与创新数据 | 做创新扩散、知识重组、技术融合、发明人网络时非常重要。注意 PatentsView 已在 2025-05-01 停用 Legacy API，并计划于 2026-03-20 迁移到 USPTO Open Data Portal。 | [PatentsView APIs](https://patentsview.org/apis/api-endpoints) |
-| The Lens | 专利 + 学术联动平台 | 做“论文到专利”的知识流动、技术转化和创新映射很实用。 | [The Lens](https://www.lens.org/) |
-| GDELT Project | 全球事件与媒体数据 | 如果研究数字平台、政策冲击、AI 舆情、产业事件扩散，这个是常见外部数据层。 | [GDELT Project](https://www.gdeltproject.org/) |
+| 科学计算与领域Skills | 仓库内附录 | 数据分析、网络分析、统计建模和领域数据库访问的 Skill 入口。 | [91-Skills/科学计算与领域Skills](../91-Skills/科学计算与领域Skills.md) |
+| 科研写作与文献Skills | 仓库内附录 | 综述、review mining、研究叙事和证据回查入口。 | [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md) |
+| Claude Scientific Skills / Scientific Agent Skills | 科学技能总库 | 更适合补数据库查询、统计分析、network analysis、research methodology 和 scientific writing。 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)、[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |
+| AI Research SKILLs | 研究工程技能库 | 适合把分析脚本、数据预处理、实验工程和可视化接成统一研究流程。 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) |
 
-## 3. 机制识别与解释性方法工具
+## 二、相关 MCP
 
-| 资源 | 类型 | 简述 | 链接 |
+| 资源 | 类型 | 更适合的用途 | 链接 |
 | --- | --- | --- | --- |
-| DoWhy | 因果推断 | 最适合把识别假设、估计、refutation 写成可追溯流程。 | [py-why/dowhy](https://github.com/py-why/dowhy) |
-| EconML | 异质性效应 | 适合研究不同用户、组织或平台情境下的 treatment heterogeneity。 | [py-why/EconML](https://github.com/py-why/EconML) |
-| causal-learn | 因果发现 | 适合探索变量结构和潜在机制图。 | [py-why/causal-learn](https://github.com/py-why/causal-learn) |
-| statsmodels | 统计建模 | 经典、稳健、论文里最容易解释。 | [statsmodels](https://www.statsmodels.org/) |
-| linearmodels | panel / IV / DID | 做面板、工具变量、固定效应、事件研究时非常常见。 | [linearmodels](https://bashtage.github.io/linearmodels/) |
-| PyMC | 贝叶斯建模 | 适合机制不确定、层级模型、多源先验融合。 | [PyMC](https://www.pymc.io/) |
+| 文献检索与知识库MCP | 仓库内附录 | OpenAlex、paper-search、OpenReview、Zotero 等文献与知识图谱入口。 | [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md) |
+| 实验执行与数据工程MCP | 仓库内附录 | Jupyter、GitHub、DuckDB、Chart、Kaggle 等执行和分析层入口。 | [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md) |
+| Paper Search MCP / OpenAlex MCP / OpenReview MCP | 学术与审稿 MCP | 适合追踪论文、审稿、作者、机构与主题网络。 | [openags/paper-search-mcp](https://github.com/openags/paper-search-mcp)、[hbiaou/openalex-mcp](https://github.com/hbiaou/openalex-mcp)、[openreview/openreview-mcp](https://github.com/openreview/openreview-mcp) |
+| Zotero MCP / GitHub MCP / Jupyter MCP | 知识库与执行 MCP | 适合把文献库、代码、notebook 和实验脚本接成统一工作流。 | [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp)、[github/github-mcp-server](https://github.com/github/github-mcp-server)、[datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) |
 
-## 4. 文本、主题、网络与知识结构分析
+## 三、开放数据与干预平台
 
-| 资源 | 类型 | 简述 | 链接 |
+| 资源层 | 更适合的用途 | 首选入口 |
+| --- | --- | --- |
+| 学术图谱与开放科学 | 研究主题演化、引用网络、作者/机构分析、开放科学项目追踪 | [开放学术、创新与行为实验资源](./开放学术、创新与行为实验资源.md) |
+| 专利与创新数据 | 论文到专利、技术融合、创新扩散、知识重组 | [开放学术、创新与行为实验资源](./开放学术、创新与行为实验资源.md) |
+| 经济、政策与社会技术数据 | 平台治理、数字经济、政策冲击、组织行为 | [开放学术、创新与行为实验资源](./开放学术、创新与行为实验资源.md) |
+| 在线实验与设计科学原型 | 行为实验、A/B 测试、交互实验、干预设计 | [开放学术、创新与行为实验资源](./开放学术、创新与行为实验资源.md) |
+
+## 四、机制识别与解释性方法
+
+| 资源 | 类型 | 更适合的用途 | 链接 |
 | --- | --- | --- | --- |
-| BERTopic | 主题建模 | 很适合做研究主题演化、专利主题聚类、评论主题归纳。 | [MaartenGr/BERTopic](https://github.com/MaartenGr/BERTopic) |
-| Gensim | 文本挖掘 | 经典 topic modeling / vector space 工具。 | [piskvorky/gensim](https://github.com/piskvorky/gensim) |
-| sentence-transformers | 表征学习 | 做 semantic similarity、clustering、idea/patent/paper 匹配都很实用。 | [UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers) |
-| NetworkX | 网络分析 | 对引文网络、合作网络、创新扩散网络很方便。 | [networkx/networkx](https://github.com/networkx/networkx) |
-| igraph | 大规模网络 | 数据更大时常比 NetworkX 更稳。 | [igraph/python-igraph](https://github.com/igraph/python-igraph) |
+| DoWhy | 因果推断框架 | 把识别假设、估计与 refutation 写成可追溯研究流程。 | [py-why/dowhy](https://github.com/py-why/dowhy) |
+| EconML | 异质性效应 | 研究不同组织、用户或平台情境下的 treatment heterogeneity。 | [py-why/EconML](https://github.com/py-why/EconML) |
+| DoubleML | 双重机器学习 | 高维因果、政策评估与稳健估计的高频入口。 | [DoubleML/doubleml-for-py](https://github.com/DoubleML/doubleml-for-py) |
+| causal-learn | 因果发现 | 探索变量结构和潜在机制图。 | [py-why/causal-learn](https://github.com/py-why/causal-learn) |
+| statsmodels / linearmodels | 统计与面板建模 | DID、IV、固定效应、事件研究和面板回归的稳健入口。 | [statsmodels](https://www.statsmodels.org/)、[linearmodels](https://bashtage.github.io/linearmodels/) |
+| PyMC | 贝叶斯建模 | 适合层级模型、多源先验和机制不确定场景。 | [PyMC](https://www.pymc.io/) |
 
-## 5. 行为实验、在线实验与设计科学原型
+## 五、文本、主题、网络与知识结构分析
 
-| 资源 | 类型 | 简述 | 链接 |
+| 资源 | 类型 | 更适合的用途 | 链接 |
 | --- | --- | --- | --- |
-| oTree | 在线实验平台 | 做行为实验、平台机制实验、激励设计实验时很常用。 | [oTree](https://www.otree.org/)、[oTree-org/oTree](https://github.com/oTree-org/oTree) |
-| jsPsych | Web 实验框架 | 做用户行为、认知实验、人机交互实验都很轻便。 | [jsPsych](https://www.jspsych.org/)、[jspsych/jsPsych](https://github.com/jspsych/jsPsych) |
-| lab.js | 浏览器实验工具 | 偏设计实验原型和可视化构建，适合快速试验。 | [lab.js](https://lab.js.org/)、[FelixHenninger/lab.js](https://github.com/FelixHenninger/lab.js) |
-| PsychoPy | 心理/行为实验 | 更偏本地实验与可控实验流程。 | [psychopy/psychopy](https://github.com/psychopy/psychopy) |
+| BERTopic | 主题建模 | 研究主题演化、专利主题聚类、评论主题归纳。 | [MaartenGr/BERTopic](https://github.com/MaartenGr/BERTopic) |
+| Gensim | 文本挖掘 | topic modeling、词向量与经典语义空间分析。 | [piskvorky/gensim](https://github.com/piskvorky/gensim) |
+| sentence-transformers | 表征学习 | semantic similarity、paper/patent matching、cluster analysis。 | [UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers) |
+| NetworkX / igraph | 网络分析 | 引文网络、合作网络、扩散网络与创新网络分析。 | [networkx/networkx](https://github.com/networkx/networkx)、[igraph/python-igraph](https://github.com/igraph/python-igraph) |
 
-## 6. UTD 风格管理技术交叉研究可重点关注的三条链
+## 六、三条高价值研究路线
 
-### 链路 A：创新与知识重组
+1. `OpenAlex + Lens + USPTO Open Data + BERTopic + NetworkX + DoWhy`
+   适合技术融合、知识重组、论文到专利的知识流动研究。
+2. `平台日志 / 行为数据 + oTree / jsPsych + statsmodels + EconML`
+   适合平台治理、AI 辅助决策、解释与排序对用户行为的影响研究。
+3. `OpenReview + OpenAlex + OSF + NLPeer + linearmodels / PyMC`
+   适合开放科学、科研组织行为、审稿机制和创新筛选研究。
 
-1. `OpenAlex + Lens + PatentsView`
-2. `BERTopic + sentence-transformers + NetworkX`
-3. `DoWhy / linearmodels`
+## 七、外部整合入口
 
-适合研究：
+| 资源 | 类型 | 更适合的用途 | 链接 |
+| --- | --- | --- | --- |
+| awesome-scholarly-data-analysis | 外部合集 | 学术数据分析、计量与开放学术资源入口。 | [napsternxg/awesome-scholarly-data-analysis](https://github.com/napsternxg/awesome-scholarly-data-analysis) |
+| AI-4-Research | 外部合集 | 研究自动化、开放科学与研究工作流资料入口。 | [AI-4-Research/AI-4-Research.github.io](https://github.com/AI-4-Research/AI-4-Research.github.io) |
+| awesome-causal-inference | 外部合集 | 因果推断方法、课程、软件和论文入口。 | [matteocourthoud/awesome-causal-inference](https://github.com/matteocourthoud/awesome-causal-inference) |
+| Local Citation Network | 外部工具与资料 | 引文网络分析和本地引文图谱入口。 | [LocalCitationNetwork](https://github.com/LocalCitationNetwork/LocalCitationNetwork.github.io) |
 
-- 技术融合与知识重组
-- 论文到专利的知识转移
-- 创新扩散、组织学习、领域收敛
+## 八、仓库内延伸阅读
 
-### 链路 B：平台治理与用户行为
-
-1. 平台日志 / 用户行为数据
-2. `jsPsych / oTree / lab.js`
-3. `statsmodels + DoWhy + EconML`
-
-适合研究：
-
-- AI 辅助决策
-- 平台激励与治理
-- 推荐、排序、解释对用户行为的影响
-
-### 链路 C：开放科学与科研组织
-
-1. `OpenReview + OpenAlex + OSF`
-2. `llm4novelty + NLPeer + ReviewAdvisor`
-3. `NetworkX + topic modeling + causal inference`
-
-适合研究：
-
-- 审稿机制与创新筛选
-- 学术社区协作网络
-- AI 如何改变科研生产流程
-
-## 7. 对 design science 团队更实用的仓库建设建议
-
-不要只收算法库，建议把专题资源按下面三层维护：
-
-1. `Data Layer`
-   OpenAlex、OpenReview、PatentsView、Lens、GDELT、OSF
-2. `Method Layer`
-   BERTopic、DoWhy、EconML、NetworkX、linearmodels
-3. `Intervention Layer`
-   oTree、jsPsych、lab.js、PsychoPy、MCP/Agent 工具链
-
-这样以后无论研究的是 AI 采纳、数字平台、创新扩散还是科研组织行为，都能较快拼出一条可执行 pipeline。
+- [科研新颖性与Idea生成](./科研新颖性与Idea生成.md)
+- [开放学术、创新与行为实验资源](./开放学术、创新与行为实验资源.md)
+- [07-安全与治理](../07-安全与治理/README.md)
