@@ -39,6 +39,18 @@
 | SciFact / SciDQA | 科学证据核验与 reviewer QA | 适合做 claim verification、review-style question answering 和证据核查。 | [allenai/scifact](https://github.com/allenai/scifact)、[yale-nlp/SciDQA](https://github.com/yale-nlp/SciDQA) |
 | ASReview / SYNERGY Dataset | systematic review 工具与数据集 | 适合做高量文献筛选、study selection 和 active review。 | [asreview/asreview](https://github.com/asreview/asreview)、[asreview/synergy-dataset](https://github.com/asreview/synergy-dataset) |
 | scite / Elicit / Consensus | 引用语境与 evidence synthesis | 适合看 citation context、形成 evidence map 和快速综述。 | [scite](https://scite.ai/)、[Elicit](https://elicit.com/)、[Consensus](https://consensus.app/) |
+| Connected Papers / ResearchRabbit / Litmaps | landscape 与 gap analysis 工具 | 适合从引文网络和主题扩展角度补 literature gap analysis。 | [Connected Papers](https://www.connectedpapers.com/)、[ResearchRabbit](https://www.researchrabbit.ai/)、[Litmaps](https://www.litmaps.com/) |
+
+## 按问题快速进入
+
+| 当前更关心什么 | 更适合先看 |
+| --- | --- |
+| novelty detection | `llm4novelty / NovBench`、[新颖性、同行评审数据集与Benchmark](./新颖性、同行评审数据集与Benchmark.md) |
+| review mining | `ReviewAdvisor`、`NLPeer`、`PeerRead` |
+| peer review datasets | `PeerRead`、`PeerQA`、`PeerSum`、`HedgePeer` |
+| literature gap analysis | `OpenAlex MCP`、`Connected Papers / ResearchRabbit / Litmaps`、[科研新颖性与Idea生成](../08-方向专题/科研新颖性与Idea生成.md) |
+| evidence synthesis | `ASReview`、`SYNERGY Dataset`、`Elicit / Consensus`、`scite` |
+| reviewer-style critique | `academic-paper-reviewer`、`AI Peer Review`、`MARG / AgentReview` |
 
 ## 一、相关 Skills
 

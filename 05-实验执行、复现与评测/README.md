@@ -43,6 +43,17 @@
 | LiveCodeBench / BigCodeBench / DS-1000 | 代码与数据科学 benchmark | 适合评测 coding、数据分析脚本、函数调用与修复能力。 | [LiveCodeBench/LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench)、[bigcode-project/bigcodebench](https://github.com/bigcode-project/bigcodebench)、[xlang-ai/DS-1000](https://github.com/xlang-ai/DS-1000) |
 | DataPerf / MLPerf | data-centric 与系统性能 benchmark | 适合补 dataset-centric AI、训练性能和推理性能维度。 | [DataPerf](https://www.dataperf.org/)、[MLPerf Training](https://mlcommons.org/benchmarks/training/)、[MLPerf Inference](https://mlcommons.org/working-groups/benchmarks/inference/) |
 
+## 按子方向快速进入
+
+| 子方向 | 更适合先看 |
+| --- | --- |
+| tabular / AutoML / HPO | [08-方向专题/Tabular-AutoML与HPO](../08-方向专题/Tabular-AutoML与HPO.md) |
+| graph / retrieval / recommender | [08-方向专题/Graph-Retrieval-Recsys与DataMining](../08-方向专题/Graph-Retrieval-Recsys与DataMining.md) |
+| causal / anomaly / data-centric AI | [08-方向专题/Causal-Anomaly与Data-Centric-AI](../08-方向专题/Causal-Anomaly与Data-Centric-AI.md) |
+| benchmark 快查 | [98-全局索引/实验与Benchmark索引](../98-全局索引/实验与Benchmark索引.md) |
+| CLI / notebook / 数据工程工具 | [98-全局索引/CLI与终端工具索引](../98-全局索引/CLI与终端工具索引.md) |
+| 研究代理与自动化实验 | `MLE-bench`、`MLGym`、`MLR-Bench`、`FML-bench`、`OpenHands Benchmarks` |
+
 ## 一、相关 Skills
 
 | 资源 | 类型 | 适合环节 | 简述 | 链接 |

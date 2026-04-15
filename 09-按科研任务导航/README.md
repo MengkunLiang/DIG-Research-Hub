@@ -39,7 +39,8 @@
 
 重点补看：
 - [08-方向专题/AI-ML-DataMining资源](../08-方向专题/AI-ML-DataMining资源.md)
-- [08-方向专题/AI4Science与Scientific Discovery](../08-方向专题/AI4Science与Scientific%20Discovery.md)
+- [08-方向专题/Tabular-AutoML与HPO](../08-方向专题/Tabular-AutoML与HPO.md)
+- [08-方向专题/Graph-Retrieval-Recsys与DataMining](../08-方向专题/Graph-Retrieval-Recsys与DataMining.md)
 
 ### 路线 B：综述 / evidence synthesis 路线
 
@@ -75,11 +76,37 @@
 | 实验与评测 | `Jupyter MCP + GitHub MCP + MLflow + DVC + benchmark suites` |
 | 写作与投稿 | `Zotero MCP + OverleafMCP / MyST / Quarto + OpenResearch / ScholarCopilot + template tools` |
 
-## 五、横向补充入口
+## 五、每一步的最小可执行路径
+
+| 任务阶段 | 最短路径 |
+| --- | --- |
+| 选题扫描 | `方向词 / seed paper -> Paper Search / OpenAlex -> 核心论文池 -> novelty 检查` |
+| 精读筛选 | `候选论文池 -> 结构化精读 -> PDF 深解析 -> 精读卡输出` |
+| 知识沉淀 | `Zotero / Bib -> 笔记系统 -> 证据卡 -> 写作或综述出口` |
+| novelty 与综述 | `相关工作池 -> review mining / novelty -> claim 核验 -> 继续做或停止做` |
+| 实验与评测 | `环境与配置 -> benchmark / baseline -> tracking / DVC -> artifact` |
+| 写作与投稿 | `证据与图表回收 -> grounded draft -> 内审 / rebuttal -> 投稿包` |
+
+## 六、按角色进入
+
+- 做选题：
+  [课题扫描与选题](./课题扫描与选题.md)
+- 做文献精读：
+  [文献检索与单篇精读](./文献检索与单篇精读.md)
+- 做知识沉淀：
+  [知识管理与证据沉淀](./知识管理与证据沉淀.md)
+- 做 novelty / reviewer 预演：
+  [新颖性判断与综述](./新颖性判断与综述.md)
+- 做实验与 benchmark：
+  [实验执行、复现与评测](./实验执行、复现与评测.md)
+- 做成稿与投稿：
+  [写作、审稿与投稿](./写作、审稿与投稿.md)
+
+## 七、横向补充入口
 
 - [07-安全与治理](../07-安全与治理/README.md)
   适合在任何阶段补权限边界、数据治理、评测安全与供应链要求。
 - [08-方向专题](../08-方向专题/README.md)
-  适合按研究方向继续深挖 AI/ML、scientific discovery、computational design science 和开放创新资源。
+  适合按研究方向继续深挖 AI/ML、data mining、computational design science 和开放创新资源。
 - [98-全局索引/外部导航与合集](../98-全局索引/外部导航与合集.md)
   适合继续扫外部公开合集并补库。

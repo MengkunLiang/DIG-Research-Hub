@@ -31,12 +31,20 @@
 
 | 资源 | 类型 | 简述 | 链接 |
 | --- | --- | --- | --- |
+| MCP Servers (Official) | 官方实现集合 | 适合看官方维护的 `filesystem / fetch / memory / github / brave search` 等参考实现。 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) |
 | Paper Search MCP | 学术检索 MCP | 适合多源论文检索与 PDF 获取。 | [openags/paper-search-mcp](https://github.com/openags/paper-search-mcp) |
 | Academia MCP | 学术研究 MCP | 集成论文、数据集、引用、网页与研究报告工作流。 | [IlyaGusev/academia_mcp](https://github.com/IlyaGusev/academia_mcp) |
 | OpenReview MCP | 投稿生态 MCP | 适合跟踪 OpenReview 投稿、讨论与审稿信息。 | [openreview/openreview-mcp](https://github.com/openreview/openreview-mcp) |
 | OpenAlex Research MCP | research landscape MCP | 适合引文分析、趋势分析和文献 landscape。 | [oksure/openalex-research-mcp](https://github.com/oksure/openalex-research-mcp) |
 | Jupyter MCP Server | notebook MCP | 适合执行与检查 notebook。 | [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) |
 | GitHub MCP Server | 仓库协作 MCP | 适合仓库、Issue、PR、CI 与 release 读取。 | [github/github-mcp-server](https://github.com/github/github-mcp-server) |
+| HKUST-Got-Skills Resources | 综合导航页 | 适合从科研工作流角度反查高价值 MCP 与 CLI。 | [HKUST-Got-Skills Resources](https://giggleliu.github.io/HKUST-Got-Skills/resources) |
+
+## 最小查全路径
+
+1. 先用“按任务回查”定位文献层、实验层或写作层。
+2. 再进具体页比较不同 server 的宿主兼容性与用途。
+3. 需要横向扩展时，再去 [98-全局索引/MCP索引](../98-全局索引/MCP索引.md) 和 [98-全局索引/外部导航与合集](../98-全局索引/外部导航与合集.md)。
 
 ## 推荐配合使用的页面
 

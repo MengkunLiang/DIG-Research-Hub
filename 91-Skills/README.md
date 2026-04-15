@@ -35,9 +35,18 @@
 | OpenAI Skills | 官方技能库 | 适合代码、文档、调试与开发工作流。 | [openai/skills](https://github.com/openai/skills) |
 | Anthropic Skills | 官方技能库 | 适合工具调用、工程自动化与多类通用任务。 | [anthropics/skills](https://github.com/anthropics/skills) |
 | AI Research SKILLs | 科研技能总库 | 聚焦 AI/ML 研究工程、训练、评测和实验工作流。 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) |
+| Open Agent Skills Specification | 开放规范 | 适合看 `SKILL.md` 的开放格式和目录约定。 | [Open Agent Skills Spec](https://openagentskills.dev/docs/specification) |
+| skills CLI / skillkit | 安装工具 | 适合发现、安装和迁移公开技能。 | [vercel-labs/skills](https://github.com/vercel-labs/skills)、[rohitg00/skillkit](https://github.com/rohitg00/skillkit) |
 | Awesome Skills | 公开目录 | 适合补 community 技能目录与跨宿主发现入口。 | [intellectronica/awesome-skills](https://github.com/intellectronica/awesome-skills) |
 | Skills Directory | 发现平台 | 适合观察高频技能、排行榜和安装入口。 | [skills.sh](https://skills.sh/) |
 | OpenHands Skills | 公共 registry | 适合关注公共 skills 注册表与软件代理生态。 | [OpenHands/skills](https://github.com/OpenHands/skills) |
+| HKUST-Got-Skills Resources | 综合导航页 | 同时覆盖 `Skills`、`MCP`、CLI 与科研场景推荐。 | [HKUST-Got-Skills Resources](https://giggleliu.github.io/HKUST-Got-Skills/resources) |
+
+## 最小查全路径
+
+1. 先从 [科研工程与实验Skills](./科研工程与实验Skills.md) 或 [科研写作与文献Skills](./科研写作与文献Skills.md) 判断任务主线。
+2. 再用 [Skill发现平台与精品合集](./Skill发现平台与精品合集.md) 扩展公开生态。
+3. 需要回到任务层时，再跳回 [09-按科研任务导航](../09-按科研任务导航/README.md)。
 
 ## 推荐配合使用的页面
 
