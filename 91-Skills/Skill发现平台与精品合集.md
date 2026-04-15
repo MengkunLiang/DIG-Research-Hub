@@ -29,7 +29,8 @@
 | skillmatic Awesome Agent Skills | 技能生态笔记型合集 | 规模不算最大，但对 Agent Skills 架构、benchmarks、生态图谱整理得比较系统。 | [skillmatic-ai/awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills) |
 | Claude Skills Collection | 分类型收集仓库 | 对官方和社区 skill 做了较清晰的分组，适合快速扫全局。 | [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection) |
 | Antigravity Awesome Skills | 大型技能仓库 | 规模很大，灵感很多，但更适合作为“扫新来源”，不适合无脑全装。 | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) |
-| HKUST-Got-Skills | 教学资源 | 把 Skills、MCP、agent 配置和教程整合在一起，适合给组里新人做 onboarding。 | [HKUST-Got-Skills](https://giggleliu.github.io/HKUST-Got-Skills/resources) |
+| Awesome OpenClaw Skills | 综合技能合集 | 适合继续扫 community skill bundles，尤其是研究、工程和内容处理条目。 | [sundial-org/awesome-openclaw-skills](https://github.com/sundial-org/awesome-openclaw-skills) |
+| HKUST-Got-Skills | 历史教学资源 | 用户提供的 GitHub Pages 链接在 2026-04-15 实测返回 `404`，适合作为历史参考。 | [HKUST-Got-Skills](https://giggleliu.github.io/HKUST-Got-Skills/resources) |
 
 ## 3. 面向科研最值得关注的专题合集
 

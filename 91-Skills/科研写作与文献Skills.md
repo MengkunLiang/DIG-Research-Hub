@@ -99,3 +99,39 @@
 4. 对投稿模板、审稿反馈、revision 有实际支持
 
 如果只是“更会写点漂亮段落”，对科研团队的长期价值通常不够高。
+
+## 7. 面向不同任务模块的优先子集
+
+### 文献检索与单篇精读
+
+优先看：
+
+- [../02-文献检索与单篇精读/README.md](../02-文献检索与单篇精读/README.md)
+- [../02-文献检索与单篇精读/精读用Skills、MCP与解析工具详表.md](../02-文献检索与单篇精读/精读用Skills、MCP与解析工具详表.md)
+- `paper-glance-skill`
+- `research-lookup`
+- `deep-research`
+- `pdf`
+
+### 知识管理与证据沉淀
+
+优先看：
+
+- [../03-知识管理与证据沉淀/README.md](../03-知识管理与证据沉淀/README.md)
+- [../03-知识管理与证据沉淀/知识管理工具、MCP与知识载体详表.md](../03-知识管理与证据沉淀/知识管理工具、MCP与知识载体详表.md)
+- `citation-management`
+- `notebooklm-skill`
+- `academic-pipeline`
+- `pdf/docx`
+
+### 新颖性判断与综述
+
+优先看：
+
+- [../04-新颖性判断与综述/README.md](../04-新颖性判断与综述/README.md)
+- [../04-新颖性判断与综述/新颖性判断、综述与评审工具详表.md](../04-新颖性判断与综述/新颖性判断、综述与评审工具详表.md)
+- `literature-review`
+- `peer-review`
+- `scientific-critical-thinking`
+- `academic-paper-reviewer`
+- `hypothesis-generation`

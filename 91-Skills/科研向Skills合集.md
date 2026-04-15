@@ -18,6 +18,10 @@
 | Claude Scientific Writer | 写作与深研工具包 | 对论文、综述、基金、海报、同行评审、citation 管理特别强。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
 | Academic Research Skills | 学术研究流水线 | 更强调 `research -> write -> review -> revise -> finalize` 的完整多 agent 流程。 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |
 | Hugging Face Skills | AI/ML 官方技能包 | 数据集、训练、评测、发布和 Hub 操作都很实用。 | [huggingface/skills](https://github.com/huggingface/skills) |
+| OpenHands Skills | 公共技能注册表 | 更适合把技能理解成平台能力层而不是个人本地脚本。 | [OpenHands/skills](https://github.com/OpenHands/skills) |
+| Azure Skills | 云与平台技能库 | 对需要云训练、Foundry、MCP、部署与资源诊断的科研团队很实用。 | [microsoft/azure-skills](https://github.com/microsoft/azure-skills) |
+| littleben/awesomeAgentskills | Skills 合集 | 适合继续扫 community skills，尤其是研究与工程相邻条目。 | [littleben/awesomeAgentskills](https://github.com/littleben/awesomeAgentskills) |
+| skillmatic awesome-agent-skills | Skills 合集 | 适合从架构和生态图谱角度继续补 Skills 资源。 | [skillmatic-ai/awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills) |
 
 ## 2. 按科研任务拆开看
 
@@ -59,6 +63,17 @@
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
 - [github/awesome-copilot](https://github.com/github/awesome-copilot)
 
+### 课题扫描与研究情报
+
+优先看：
+
+- [../01-课题扫描与选题/README.md](../01-课题扫描与选题/README.md)
+- [../01-课题扫描与选题/选题用Skills、MCP与Agent详表.md](../01-课题扫描与选题/选题用Skills、MCP与Agent详表.md)
+- [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer)
+- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills)
+- [CatVinci-Studio/paper-glance-skill](https://github.com/CatVinci-Studio/paper-glance-skill)
+- [PleasePrompto/notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill)
+
 ## 3. 面向科研团队的最小 Skills 组合
 
 对于希望尽快把 Skills 用起来的科研团队，可以先从这套组合开始：
@@ -69,6 +84,7 @@
 4. 科学数据库 / 学科分析层：`claude-scientific-skills` + `scientific-agent-skills`
 5. 写作与评审层：`claude-scientific-writer`
 6. 学术完整流程层：`academic-research-skills`
+7. 社区补充层：`littleben/awesomeAgentskills` + `skills.sh`
 
 这几套叠起来，已经能覆盖大多数 AI 科研团队的第一版需求。
 
@@ -91,3 +107,17 @@
 3. 最后再把最常用的 skills 固化成自己的内部能力层
 
 不然很容易变成“仓库看起来很大，但团队没人真的用”。
+
+## 6. 针对“课题扫描与选题”的一个实用子集
+
+如果目标是做前期选题和方向判断，通常最值得优先保留的是：
+
+1. `research-lookup`
+2. `literature-review`
+3. `hypothesis-generation`
+4. `scientific-critical-thinking`
+5. `deep-research`
+6. `paper-glance-skill`
+7. `notebooklm-skill`
+
+这组技能比“大而全安装所有 skills”更适合作为 topic scan 的第一层。
