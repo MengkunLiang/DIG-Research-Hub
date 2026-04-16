@@ -11,10 +11,12 @@
 | Skills CLI | 通用安装器 | `npx skills add` 目前是开放生态里最像“统一安装器”的工具。 | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
 | Skills CLI 文档 | 文档 | 解释安装、审计、兼容宿主、路径和安全提醒。 | [skills.sh/docs](https://skills.sh/docs) |
 | Agent Skills 规范库 | 规范与样例入口 | 除了 `agentskills.io` 外，`agentskills/agentskills` 是看规范与参考实现的最佳 GitHub 入口。 | [agentskills/agentskills](https://github.com/agentskills/agentskills) |
+| Agent Skill Index | 社区目录 | 提供多语言 README 和在线目录站，适合跨宿主扫新与快速分发。 | [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) |
 | Hugging Face Skills | 技能组织页 | Hugging Face 把技能做成了跨 Claude/Codex/Gemini/Cursor 的通用包。 | [hf-skills](https://huggingface.co/hf-skills) |
 | HF Skill Finder | 技能发现工具 | 查 Hugging Face skills 时很顺手。 | [hf-skills/skill-finder](https://huggingface.co/spaces/hf-skills/skill-finder) |
 | OpenHands Global Skills | 公共 registry | 对 OpenHands 生态感兴趣时，这个公共 registry 很值得长期跟踪。 | [OpenHands/skills](https://github.com/OpenHands/skills) |
 | OpenHands Skills 文档 | 文档 | 说明公共 skills 如何触发、如何贡献。 | [OpenHands Docs](https://docs.openhands.dev/usage/prompting/microagents-public) |
+| ClawHub | 开源注册表 | OpenClaw 的开源公共 registry，适合看 skill 版本、tag、搜索与 CLI 分发。 | [openclaw/clawhub](https://github.com/openclaw/clawhub) |
 | Ai-Agent-Skills | 替代安装器 | 提供“一次装到多个 agent”的安装思路，适合关注生态分发演化。 | [skillcreatorai/Ai-Agent-Skills](https://github.com/skillcreatorai/Ai-Agent-Skills) |
 
 ## 2. 高信号精品合集
@@ -26,6 +28,9 @@
 | BehiSecc Awesome Claude Skills | 大型分类清单 | 对文档、数据、科研、写作、协作类 skills 的整理很全。 | [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) |
 | VoltAgent Awesome Claude Skills | Claude 专题合集 | 更偏 Claude 视角的技能总表。 | [VoltAgent/awesome-claude-skills](https://github.com/VoltAgent/awesome-claude-skills) |
 | Composio Awesome Claude Skills | 技能集合 | 里面有不少实用的内容研究、文档处理、数据分析、组织协作类 skills。 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) |
+| Everything Claude Code | 大型生态仓库 | 把 `skills / hooks / rules / memory / MCP configs / research-first workflow` 组织成完整生态系统。 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) |
+| Awesome Scientific Skills | 科研精选目录 | 明确面向 scientific research 做 curated collection，适合从技能总表切到 science-first 视角。 | [InternScience/Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills) |
+| OhMySkills | 轻量技能仓库 | 小而精的 production-ready Claude Code skills，适合观察 skill 仓库的工程组织方式。 | [NakanoSanku/OhMySkills](https://github.com/NakanoSanku/OhMySkills) |
 | obra/superpowers | 开发方法论技能库 | 对研究软件、实验工程、验证与并行任务拆解特别有价值。 | [obra/superpowers](https://github.com/obra/superpowers) |
 | Prat011 Awesome LLM Skills | 泛 Agent Skills 合集 | 不只局限于 Claude，对 Codex、Gemini 和通用 agent 也有兼容视角。 | [Prat011/awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) |
 | skillmatic Awesome Agent Skills | 技能生态笔记型合集 | 规模不算最大，但对 Agent Skills 架构、benchmarks、生态图谱整理得比较系统。 | [skillmatic-ai/awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills) |
@@ -43,14 +48,21 @@
 | Skills Leaderboard | 热门趋势 | 适合观察哪个 skill 生态最近热、哪些官方 repo 被大量安装。 | [skills.sh](https://skills.sh/) |
 | HKUST-Got-Skills | 综合资源页 | 把 Skills、MCP、CLI 工具和科研自动化资料放在一个入口中，适合做补库映射。 | [HKUST-Got-Skills](https://giggleliu.github.io/HKUST-Got-Skills/resources) |
 
-## 4. 历史桥接工具
+## 4. 中文学习与迁移资源
+
+| 资源 | 类型 | 简述 | 链接 |
+| --- | --- | --- | --- |
+| agent-skills-with-anthropic | 中文课程整理 | 围绕 DeepLearning.AI 的 `agent-skills-with-anthropic` 课程做中文翻译和知识点梳理。 | [datawhalechina/agent-skills-with-anthropic](https://github.com/datawhalechina/agent-skills-with-anthropic) |
+| Claude_skills_zh-CN | 官方仓库中文镜像 | 对 `anthropics/skills` 做完整汉化与目录保留，适合中文团队快速学习。 | [LeastBit/Claude_skills_zh-CN](https://github.com/LeastBit/Claude_skills_zh-CN) |
+
+## 5. 历史桥接工具
 
 | 资源 | 状态 | 简述 | 链接 |
 | --- | --- | --- | --- |
 | Claude Skills MCP Server | 历史桥接工具 | 早期用 MCP 做 skills 检索与向量搜索的桥接项目。项目说明里已明确“不再托管或维护”，但很适合理解早期生态演化。 | [K-Dense-AI/claude-skills-mcp](https://github.com/K-Dense-AI/claude-skills-mcp) |
 | Skill Builder | 构建型 skill | 用 Skill 继续写 Skill，适合实验室把内部能力沉成模板。 | [metaskills/skill-builder](https://github.com/metaskills/skill-builder) |
 
-## 5. 持续补库时可按这个顺序扫描
+## 6. 持续补库时可按这个顺序扫描
 
 ### 第一层：先扫“官方与标准”
 
@@ -59,14 +71,17 @@
 - `GitHub Copilot Skills`
 - `Hugging Face Skills`
 - `OpenHands Skills`
+- `ClawHub`
 
 ### 第二层：再扫“总表与排行榜”
 
 - `skills.sh`
 - `intellectronica/awesome-skills`
+- `heilcheng/awesome-agent-skills`
 - `VoltAgent/awesome-agent-skills`
 - `BehiSecc/awesome-claude-skills`
 - `github/awesome-copilot`
+- `InternScience/Awesome-Scientific-Skills`
 
 ### 第三层：最后再扫“专题 skill bundles”
 
@@ -74,7 +89,7 @@
 - 学术写作与审稿
 - 生物信息 / 医学 / 材料 / 物理 / 地理等领域技能
 
-## 6. 对“全面收录”的建议
+## 7. 对“全面收录”的建议
 
 技能目录页最容易越来越大，但真正高价值的不是“仓库数”，而是：
 

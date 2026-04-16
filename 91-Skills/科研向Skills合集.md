@@ -17,9 +17,13 @@
 | Scientific Agent Skills | 跨学科科学技能库 | 覆盖 100+ 数据库、70+ Python 包、多个科学与工程学科，适合科研团队做“大底座”。 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |
 | Claude Scientific Writer | 写作与深研工具包 | 对论文、综述、基金、海报、同行评审、citation 管理特别强。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
 | Academic Research Skills | 学术研究流水线 | 更强调 `research -> write -> review -> revise -> finalize` 的完整多 agent 流程。 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |
+| Agent Skill Index | 社区发现目录 | 社区维护的跨宿主目录站与多语言 README，适合把公开 skills 生态快速扫一遍。 | [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) |
+| ClawHub | 开源技能注册表 | OpenClaw 的开源公共 skill registry，适合看大规模社区分发、版本管理和搜索。 | [openclaw/clawhub](https://github.com/openclaw/clawhub) |
+| Awesome Scientific Skills | 科研精选目录 | 明确面向 scientific research 任务选 skill，强调可克隆、可审计和可组合。 | [InternScience/Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills) |
 | Hugging Face Skills | AI/ML 官方技能包 | 数据集、训练、评测、发布和 Hub 操作都很实用。 | [huggingface/skills](https://github.com/huggingface/skills) |
 | OpenHands Skills | 公共技能注册表 | 更适合把技能理解成平台能力层而不是个人本地脚本。 | [OpenHands/skills](https://github.com/OpenHands/skills) |
 | Azure Skills | 云与平台技能库 | 对需要云训练、Foundry、MCP、部署与资源诊断的科研团队很实用。 | [microsoft/azure-skills](https://github.com/microsoft/azure-skills) |
+| Everything Claude Code | 跨宿主生态仓库 | 不只是收 skills，还把 hooks、rules、memory、MCP configs 和 research-first workflow 组织成系统。 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) |
 | littleben/awesomeAgentskills | Skills 合集 | 适合继续扫 community skills，尤其是研究与工程相邻条目。 | [littleben/awesomeAgentskills](https://github.com/littleben/awesomeAgentskills) |
 | skillmatic awesome-agent-skills | Skills 合集 | 适合从架构和生态图谱角度继续补 Skills 资源。 | [skillmatic-ai/awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills) |
 
@@ -60,6 +64,9 @@
 - [跨平台宿主与官方技能库](./跨平台宿主与官方技能库.md)
 - [Skill发现平台与精品合集](./Skill发现平台与精品合集.md)
 - [skills.sh](https://skills.sh/)
+- [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills)
+- [openclaw/clawhub](https://github.com/openclaw/clawhub)
+- [InternScience/Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills)
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
 - [github/awesome-copilot](https://github.com/github/awesome-copilot)
 
@@ -87,6 +94,11 @@
 7. 社区补充层：`littleben/awesomeAgentskills` + `skills.sh`
 
 这几套叠起来，已经能覆盖大多数 AI 科研团队的第一版需求。
+
+如果目标是“补库查漏”而不是“直接安装”，建议再加两层：
+
+8. 发现目录层：`heilcheng/awesome-agent-skills` + `openclaw/clawhub`
+9. 科研精选层：`InternScience/Awesome-Scientific-Skills`
 
 ## 4. 设计自己的科研 Skill 时，建议固定五个槽位
 
@@ -121,3 +133,12 @@
 7. `notebooklm-skill`
 
 这组技能比“大而全安装所有 skills”更适合作为 topic scan 的第一层。
+
+## 7. 对中文科研团队特别有价值的两类资源
+
+如果你的目标不只是“找技能”，还希望把技能体系在团队内部讲清楚、推广起来，这两类资源很值得长期保留：
+
+| 资源 | 类型 | 为什么值得补进库里 | 链接 |
+| --- | --- | --- | --- |
+| agent-skills-with-anthropic | 中文课程整理 | 围绕 `agent-skills-with-anthropic` 课程做了系统中文梳理，适合团队 onboarding。 | [datawhalechina/agent-skills-with-anthropic](https://github.com/datawhalechina/agent-skills-with-anthropic) |
+| Claude_skills_zh-CN | 官方仓库中文镜像 | 保留 `anthropics/skills` 目录结构并做文档汉化，适合快速学习和二次开发。 | [LeastBit/Claude_skills_zh-CN](https://github.com/LeastBit/Claude_skills_zh-CN) |

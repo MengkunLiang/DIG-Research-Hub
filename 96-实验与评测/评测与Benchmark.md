@@ -16,6 +16,7 @@
 | Aviary | language agent gym | 提供文献、notebook、生物序列等科学任务环境。 | [Future-House/aviary](https://github.com/Future-House/aviary) |
 | LAB-Bench | scientific benchmark | 面向生物科学研究能力评测，也适合作为科学 agent 参考基准。 | [Future-House/LAB-Bench](https://github.com/Future-House/LAB-Bench) |
 | LiveDRBench | deep research benchmark | 适合评测 deep research 与 claim discovery。 | [microsoft/livedrbench](https://github.com/microsoft/livedrbench) |
+| NewtonBench | scientific law discovery benchmark | 面向交互式科学定律发现与主动实验，不只是静态函数拟合。 | [HKUST-KnowComp/NewtonBench](https://github.com/HKUST-KnowComp/NewtonBench) |
 | ToolSandbox | tool-use benchmark | 适合评测多轮工具调用和状态化执行。 | [apple/ToolSandbox](https://github.com/apple/ToolSandbox) |
 | ML-Dev-Bench | ML development benchmark | 直接面向模型开发、debug、数据处理和实现新想法等任务。 | [ml-dev-bench/ml-dev-bench](https://github.com/ml-dev-bench/ml-dev-bench) |
 | OpenHands Benchmarks | agent benchmark harness | 适合继续补软件代理、执行任务和工程工作流评测。 | [OpenHands/benchmarks](https://github.com/OpenHands/benchmarks) |
@@ -78,7 +79,7 @@
 ## 6. 更实用的落地方式
 
 1. 先做 10 到 20 个内部黄金任务。
-2. 再引入 `MLE-bench / MLGym / MLR-Bench / FML-bench / ToolSandbox / Ragas`。
+2. 再引入 `MLE-bench / MLGym / MLR-Bench / FML-bench / LiveDRBench / NewtonBench / ToolSandbox / Ragas`。
 3. 对 AI/ML/data mining 方向，再逐步补 `OpenML / OpenML-CC18 / PMLB / YAHPO Gym / TabArena / OGB / BEIR / RecBole / ADBench / CausalBench`。
 4. 如果目标包含 idea / novelty，再补 `llm4novelty / NLPeer / OpenReview`。
 5. 最后再把 benchmark、CI 和回归测试绑起来，形成持续评测闭环。

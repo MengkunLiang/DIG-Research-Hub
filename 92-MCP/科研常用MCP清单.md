@@ -12,6 +12,9 @@
 - [oksure/openalex-research-mcp](https://github.com/oksure/openalex-research-mcp)
 - [zongmin-yu/semantic-scholar-fastmcp-mcp-server](https://github.com/zongmin-yu/semantic-scholar-fastmcp-mcp-server)
 - [botanicastudios/crossref-mcp](https://github.com/botanicastudios/crossref-mcp)
+- [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server)
+- [scipenai/aminer-mcp-server](https://github.com/scipenai/aminer-mcp-server)
+- [qwe4559999/scopus-mcp](https://github.com/qwe4559999/scopus-mcp)
 - [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp)
 - [microsoft/markitdown](https://github.com/microsoft/markitdown)
 
@@ -31,6 +34,7 @@
 - [motherduckdb/mcp-server-motherduck](https://github.com/motherduckdb/mcp-server-motherduck)
 - [zilliztech/mcp-server-milvus](https://github.com/zilliztech/mcp-server-milvus)
 - [arrismo/kaggle-mcp](https://github.com/arrismo/kaggle-mcp)
+- [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server)
 
 专题页：
 
@@ -63,11 +67,13 @@
 5. 文档转换：`markitdown`
 6. Notebook 执行：`jupyter-mcp-server`
 7. 代码与协作：`github-mcp-server`
+8. 模型、数据集与 Papers 平台：`hf-mcp-server`
 
 ## 5. 使用提醒
 
 - 社区 MCP 数量多，不等于都适合进入主链路。
 - 学术检索类 MCP 更适合返回可验证的来源、标识符和元数据，而不是只给摘要结论。
+- 一部分学术数据库 MCP 依赖第三方 API Key 或机构订阅，例如 `Scopus`、`AMiner`，更适合作为“增强层”而不是默认底座。
 - 访问 Zotero、GitHub、Notion、数据库等私有资产时，公开资源整理应默认强调最小权限与只读优先。
 - 网页搜索类 MCP 适合做补充信息层，不宜替代学术数据库与正式文献源。
 - 对涉及专利、临床、医学数据的 MCP，额外关注 API 条款、数据许可与引用规范。

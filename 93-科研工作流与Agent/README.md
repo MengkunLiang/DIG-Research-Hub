@@ -27,8 +27,11 @@
 | AgentLaboratory | 多代理科研系统 | 适合把研究流程拆成协作环节。 | [SamuelSchmidgall/AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) |
 | AI-Scientist-v2 | 自动科研系统 | 适合查看从想法到实验的闭环实现。 | [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) |
 | Open Deep Research | 开源 deep research agent | 适合观察 deep research 应用的开放实现。 | [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) |
+| CMBAgent | 科学研究多代理系统 | 适合查看 domain-agnostic 的 autonomous scientific research engine。 | [CMBAgents/cmbagent](https://github.com/CMBAgents/cmbagent) |
 | OpenHands Software Agent SDK | 代理开发框架 | 适合搭建可执行代码与工具的代理。 | [OpenHands/software-agent-sdk](https://github.com/OpenHands/software-agent-sdk) |
+| Aviary | 科学任务环境 | 适合给科研 agent 提供带工具和 scientific tasks 的语言环境。 | [Future-House/aviary](https://github.com/Future-House/aviary) |
 | LiveDRBench | deep research benchmark | 适合评测 deep research 与 claim discovery 能力。 | [microsoft/livedrbench](https://github.com/microsoft/livedrbench) |
+| NewtonBench | 科学定律发现 benchmark | 适合评测交互式科学发现与主动实验能力，而不只是静态拟合。 | [HKUST-KnowComp/NewtonBench](https://github.com/HKUST-KnowComp/NewtonBench) |
 
 ## 推荐配合使用的页面
 

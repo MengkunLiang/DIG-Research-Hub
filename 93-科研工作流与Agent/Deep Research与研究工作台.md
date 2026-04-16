@@ -10,6 +10,7 @@
 | RTI | 文献工作流系统 | 把“方向输入 -> 检索 -> 筛选 -> 翻译 -> 深度分析”组织成完整链路。 | [yrc-better/RTI](https://github.com/yrc-better/RTI) |
 | PaperQA2 | 科学文献问答 | 面向科学论文问答、证据引用与高精度引用式回答。 | [Future-House/paper-qa](https://github.com/Future-House/paper-qa) |
 | STORM / Co-STORM | 知识策展与长报告 | 从检索、问题提出、提纲构建到带引用长文输出，适合 knowledge curation。 | [stanford-oval/storm](https://github.com/stanford-oval/storm) |
+| Open Deep Research | 开源 deep research agent | 简洁、可配置、兼容多模型、多搜索工具和 MCP server，并对接 `Deep Research Bench`。 | [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) |
 | Tongyi DeepResearch | 开源 deep research agent | 聚焦长时程信息搜寻、网页阅读、推理与搜索式深度研究。 | [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) |
 | GPT Researcher | 自主 deep research | 支持 Web 与本地文档研究，输出长报告并带引用。 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) |
 | ResearStudio | Human-intervenable deep research | 支持实时暂停、编辑、恢复计划，强调 plan-as-document 与人机协作。 | [ResearAI/ResearStudio](https://github.com/ResearAI/ResearStudio) |
@@ -20,11 +21,11 @@
 
 | 能力 | 更值得优先看的资源 | 说明 |
 | --- | --- | --- |
-| 文献与网页搜索 | `RTI`、`Tongyi DeepResearch`、`Jina DeepResearch`、`GPT Researcher` | 适合研究多轮检索、网页阅读和深搜策略。 |
+| 文献与网页搜索 | `RTI`、`Open Deep Research`、`Tongyi DeepResearch`、`Jina DeepResearch`、`GPT Researcher` | 适合研究多轮检索、网页阅读和深搜策略。 |
 | 证据式问答 | `PaperQA2`、`Open Research` | 适合构建引用可回查、回答可验证的 evidence QA 层。 |
-| 提纲与长报告生成 | `STORM`、`GPT Researcher`、`ResearStudio` | 适合观察 outline-first、citation-first、report-first 的不同策略。 |
-| 人机协作式工作台 | `ResearStudio`、`Co-STORM`、`Open Research` | 适合研究 plan editing、实时介入和 shared workspace。 |
-| 自部署与接口化 | `Deep Research`、`Jina DeepResearch`、`GPT Researcher` | 更适合作为团队内部工作台或服务层基础。 |
+| 提纲与长报告生成 | `STORM`、`Open Deep Research`、`GPT Researcher`、`ResearStudio` | 适合观察 outline-first、citation-first、report-first 的不同策略。 |
+| 人机协作式工作台 | `ResearStudio`、`Co-STORM`、`Open Research`、`Open Deep Research` | 适合研究 plan editing、实时介入和 shared workspace。 |
+| 自部署与接口化 | `Open Deep Research`、`Deep Research`、`Jina DeepResearch`、`GPT Researcher` | 更适合作为团队内部工作台或服务层基础。 |
 
 ## 3. 这些系统常见的核心设计
 
@@ -40,11 +41,11 @@
 
 | 模块 | 更适合接入的系统 |
 | --- | --- |
-| 研究总控台 | `Open Research`、`ResearStudio` |
-| 文献扫描与初筛 | `RTI`、`Tongyi DeepResearch`、`Jina DeepResearch` |
+| 研究总控台 | `Open Research`、`ResearStudio`、`Open Deep Research` |
+| 文献扫描与初筛 | `RTI`、`Open Deep Research`、`Tongyi DeepResearch`、`Jina DeepResearch` |
 | 单篇论文问答 | `PaperQA2` |
 | 知识策展与长报告 | `STORM`、`GPT Researcher` |
-| 私有化 / 自部署工作台 | `GPT Researcher`、`Deep Research` |
+| 私有化 / 自部署工作台 | `Open Deep Research`、`GPT Researcher`、`Deep Research` |
 
 ## 5. 与 MCP / Skills 的连接方式
 

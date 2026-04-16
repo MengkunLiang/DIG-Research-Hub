@@ -38,9 +38,14 @@
 - [openreview/openreview-mcp](https://github.com/openreview/openreview-mcp)
 - [hbiaou/openalex-mcp](https://github.com/hbiaou/openalex-mcp)
 - [oksure/openalex-research-mcp](https://github.com/oksure/openalex-research-mcp)
+- [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server)
+- [huggingface/mcp-course](https://github.com/huggingface/mcp-course)
+- [scipenai/aminer-mcp-server](https://github.com/scipenai/aminer-mcp-server)
+- [qwe4559999/scopus-mcp](https://github.com/qwe4559999/scopus-mcp)
 - [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp)
 - [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server)
 - [github/github-mcp-server](https://github.com/github/github-mcp-server)
+- [grll/mcpadapt](https://github.com/grll/mcpadapt)
 - [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers)
 
 ## 推荐配合使用

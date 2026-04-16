@@ -17,6 +17,10 @@
 | Google Scholar MCP | Scholar 补充层 | 适合在正式学术图谱之外补查 Scholar 搜索结果。 | [haris-musa/google-scholar-mcp](https://github.com/haris-musa/google-scholar-mcp) |
 | scholar-mcp | Scholar + 下载 + 分析 | 适合把 Scholar、下载与引文图谱串起来做补充检索。 | [baryhuang/scholar-mcp](https://github.com/baryhuang/scholar-mcp) |
 | Crossref MCP | DOI 与出版元数据 | 适合 DOI 查询、出版信息补全与元数据核对。 | [botanicastudios/crossref-mcp](https://github.com/botanicastudios/crossref-mcp) |
+| Hugging Face MCP Server | 模型 / 数据集 / Papers 平台 | 既能搜索 `models / datasets / papers / Spaces`，也能把 Hub 社区工具接进研究工作台。 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) |
+| AMiner MCP Server | 学者画像与论文情报 | 基于 AMiner API，适合做作者、机构、venue 与高被引论文分析。 | [scipenai/aminer-mcp-server](https://github.com/scipenai/aminer-mcp-server) |
+| Scopus MCP Server | 商业数据库桥接 | 适合在具备 Elsevier/Scopus 订阅与 API Key 的团队中做补充检索与作者画像。 | [qwe4559999/scopus-mcp](https://github.com/qwe4559999/scopus-mcp) |
+| Academic RAG MCP | 学术 OCR 与 RAG | 面向学术文献 OCR、智能检索与 RAG，适合把自建文档库接进 MCP 工作流。 | [Jackela/mcp-academic-rag-server](https://github.com/Jackela/mcp-academic-rag-server) |
 
 ## 2. 个人文库、知识库与文档资产
 
@@ -51,6 +55,8 @@
 | 组合 | 适用链路 | 说明 |
 | --- | --- | --- |
 | `paper-search + openalex + semantic scholar` | 综述与 landscape | 适合做 broad search、citation network 与主题演化分析。 |
+| `hf-mcp + openalex + github` | 模型 / 数据 / 论文联动 | 适合把 Hugging Face 资产、文献图谱与配套代码统一起来看。 |
+| `aminer + openalex + semantic scholar` | 作者 / 机构 / 引文画像 | 适合做团队、机构、作者网络和 influence analysis。 |
 | `openreview + openalex + github` | 顶会追踪 | 适合把投稿、作者、机构和配套代码串起来看。 |
 | `zotero + markitdown + notion` | 私有文库与知识库 | 适合把本地文献库、附件与笔记整理到统一工作流。 |
 | `arxiv-latex + crossref + zotero` | 精读与引用核对 | 适合公式精读、引用补全与正式元数据校验。 |
@@ -63,4 +69,5 @@
 1. 文献类 MCP 优先选择返回 DOI、ArXiv ID、PMID、OpenAlex ID、OpenReview Note ID 等可验证标识符的实现。
 2. Google Scholar 类接口波动较大，适合做补充层，不宜作为主数据源。
 3. 本地文库类 MCP 通常涉及个人笔记和全文资产，建议默认采用只读或最小权限配置。
-4. 文档转换工具适合作为前处理层，不应替代正式文献元数据源。
+4. `Scopus`、`AMiner` 这类接口常依赖 API Key 或机构订阅，适合在实验室或学校环境中作为增强层使用。
+5. 文档转换工具适合作为前处理层，不应替代正式文献元数据源。

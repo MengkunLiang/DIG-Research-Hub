@@ -9,6 +9,7 @@
 | Jupyter MCP Server | Notebook 控制 | 支持查看、编辑、执行和管理 Jupyter Notebook，是科研实验工作流里最核心的执行层之一。 | [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) |
 | Jupyter Notebook MCP | Notebook 交互 | 提供另一条较轻量的 notebook 交互实现路线。 | [jjsantos01/jupyter-notebook-mcp](https://github.com/jjsantos01/jupyter-notebook-mcp) |
 | GitHub MCP Server | 代码与协作 | 适合读取仓库、Issue、PR、提交记录与 CI 信息。 | [github/github-mcp-server](https://github.com/github/github-mcp-server) |
+| Hugging Face MCP Server | 模型 / 数据集 / Spaces 平台 | 适合搜索 Hub 资产、拉取 papers / datasets / models 信息，并调用 Gradio community tools。 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) |
 | Playwright MCP | 网页自动化 | 适合自动登录平台、抓取实验面板、浏览论文官网和交互式网页。 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
 | Chart MCP Server | 图表生成 | 适合把实验结果快速整理成可读图表。 | [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) |
 | MarkItDown | 文档与附件预处理 | 适合把附件、表格、截图与 Office 文档转换为 Markdown 进入后续分析链路。 | [microsoft/markitdown](https://github.com/microsoft/markitdown) |
@@ -52,6 +53,7 @@
 | dvc | 数据版本控制 | 适合把数据与 pipeline 也纳入版本化管理。 | [DVC](https://dvc.org/) |
 | tmux / GNU parallel | 远程与并行执行 | 适合长实验保活和批量任务并行。 | [tmux](https://github.com/tmux/tmux)、[GNU parallel](https://www.gnu.org/software/parallel/) |
 | hyperfine | 命令行基准测试 | 适合比较脚本与工具链运行耗时。 | [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) |
+| mcpadapt | MCP 桥接库 | 适合把现有 MCP servers 接到 `smolagents / LangChain / CrewAI / google-genai` 等 agent 框架。 | [grll/mcpadapt](https://github.com/grll/mcpadapt) |
 | uv / ripgrep / fd / fzf | 开发效率工具 | 适合依赖管理、代码搜索、文件遍历和交互式查找。 | [astral-sh/uv](https://github.com/astral-sh/uv)、[BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)、[sharkdp/fd](https://github.com/sharkdp/fd)、[junegunn/fzf](https://github.com/junegunn/fzf) |
 
 ## 5. 适合研究型系统的基础 MCP 组合

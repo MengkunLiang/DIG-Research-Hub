@@ -39,9 +39,12 @@
 - [RD-Agent](https://github.com/microsoft/RD-Agent)
 - [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2)
 - [AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory)
+- [CMBAgents/cmbagent](https://github.com/CMBAgents/cmbagent)
 - [OpenHands/software-agent-sdk](https://github.com/OpenHands/software-agent-sdk)
+- [Future-House/aviary](https://github.com/Future-House/aviary)
 - [OpenHands/benchmarks](https://github.com/OpenHands/benchmarks)
 - [microsoft/livedrbench](https://github.com/microsoft/livedrbench)
+- [HKUST-KnowComp/NewtonBench](https://github.com/HKUST-KnowComp/NewtonBench)
 - [hkust-nlp/Toolathlon](https://github.com/hkust-nlp/Toolathlon)
 - [hkust-nlp/AgentBoard](https://github.com/hkust-nlp/AgentBoard)
 

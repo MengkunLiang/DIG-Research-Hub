@@ -8,6 +8,7 @@
 | --- | --- | --- | --- |
 | Claude Scientific Skills | 大规模科学技能总库 | K-Dense 新一代科学技能库，公开说明显示已覆盖 120+ 到 128+ ready-to-use scientific skills，并支持 Claude Code、Cursor 和 MCP 客户端。 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) |
 | Scientific Agent Skills | 科学技能总库 | 公开说明显示已覆盖 133 个 scientific / research skills，适合做实验室的科学底座库。 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |
+| Awesome Scientific Skills | 科研精选目录 | 面向 scientific research 的精选技能目录，同时强调统一克隆、可审计和可组合 workflow。 | [InternScience/Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills) |
 | Materials Simulation Skills | 材料模拟技能包 | 面向 computational materials science，适合 simulation / numerical stability / solver / validation。 | [HeshamFS/materials-simulation-skills](https://github.com/HeshamFS/materials-simulation-skills) |
 | my_claude_skills | 小而专的领域技能集 | 包含 `extract_from_pdfs`、`phylo_from_buscos`、`biogeobears`、`think_deeply` 等。 | [brunoasm/my_claude_skills](https://github.com/brunoasm/my_claude_skills) |
 

@@ -1,6 +1,6 @@
 # 科研资源与工作流导航
 
-更新时间：2026-04-15
+更新时间：2026-04-16
 
 本仓库用于整合科研工作流中最常用的公开资源，包括 `Skills`、`MCP`、agent 系统、文献与知识工具、实验框架、benchmark、写作与投稿工具，以及 `AI/ML`、`data mining`、`computational design science` 等方向专题。整体采用“任务优先、方向补充、类型附录查全”的组织方式；`scientific discovery` 相关内容保留为补充支线，而不是主轴。
 

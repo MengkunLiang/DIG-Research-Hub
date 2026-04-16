@@ -6,10 +6,11 @@
 
 | 类型 | 代表资源 | 简述 |
 | --- | --- | --- |
-| Deep Research 与研究工作台 | [Open Research](https://www.open-research.info/)、[RTI](https://github.com/yrc-better/RTI)、[PaperQA2](https://github.com/Future-House/paper-qa)、[STORM](https://github.com/stanford-oval/storm)、[Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch)、[GPT Researcher](https://github.com/assafelovic/gpt-researcher)、[ResearStudio](https://github.com/ResearAI/ResearStudio) | 强调文献检索、证据汇总、长报告生成、可编辑研究计划与协作式深度研究。 |
-| 自动科研与自主闭环 | [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2)、[microsoft/RD-Agent](https://github.com/microsoft/RD-Agent)、[AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory)、[Future-House/robin](https://github.com/Future-House/robin)、[The Station](https://github.com/dualverse-ai/station) | 强调从研究问题到实验执行、结果反馈与迭代修正的完整闭环。 |
+| Deep Research 与研究工作台 | [Open Research](https://www.open-research.info/)、[RTI](https://github.com/yrc-better/RTI)、[PaperQA2](https://github.com/Future-House/paper-qa)、[STORM](https://github.com/stanford-oval/storm)、[langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research)、[Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch)、[GPT Researcher](https://github.com/assafelovic/gpt-researcher)、[ResearStudio](https://github.com/ResearAI/ResearStudio) | 强调文献检索、证据汇总、长报告生成、可编辑研究计划与协作式深度研究。 |
+| 自动科研与自主闭环 | [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2)、[microsoft/RD-Agent](https://github.com/microsoft/RD-Agent)、[AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory)、[CMBAgents/cmbagent](https://github.com/CMBAgents/cmbagent)、[Future-House/robin](https://github.com/Future-House/robin)、[The Station](https://github.com/dualverse-ai/station) | 强调从研究问题到实验执行、结果反馈与迭代修正的完整闭环。 |
 | 想法生成 / novelty / review | [AI Co-Scientist](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/)、[ResearchAgent](https://aclanthology.org/2025.naacl-long.342/)、[VirSci](https://aclanthology.org/2025.acl-long.1368/)、[HypoGeniC](https://github.com/ChicagoHAI/hypothesis-generation)、[llm4novelty](https://github.com/njust-winchy/llm4novelty)、[ReviewAdvisor](https://github.com/neulab/ReviewAdvisor) | 关注课题空白识别、想法扩散、审稿人式自检与新颖性评估。 |
 | 代码执行与实验代理 | [OpenHands](https://github.com/OpenHands/OpenHands)、[OpenHands Software Agent SDK](https://github.com/OpenHands/software-agent-sdk)、[google/adk-python](https://github.com/google/adk-python) | 偏向代码库操作、实验实现、工具调用和可扩展代理执行环境。 |
+| 科学任务环境与 benchmark | [Future-House/aviary](https://github.com/Future-House/aviary)、[Future-House/LAB-Bench](https://github.com/Future-House/LAB-Bench)、[HKUST-KnowComp/NewtonBench](https://github.com/HKUST-KnowComp/NewtonBench)、[microsoft/livedrbench](https://github.com/microsoft/livedrbench) | 更偏真实 scientific tasks、任务环境和 agent 评测，而不只是聊天型 demo。 |
 | 协作式科研基础设施 | [AgentRxiv](https://agentrxiv.github.io/)、[OpenReview](https://openreview.net/)、[NLPeer](https://github.com/UKPLab/nlpeer) | 支撑跨代理共享成果、同行评审模拟和审稿数据挖掘。 |
 
 ## 2. 从哪几页继续展开
@@ -25,10 +26,10 @@
 
 | 目标链路 | 适合优先参考的资源 | 说明 |
 | --- | --- | --- |
-| 文献综述与 landscape | `RTI`、`Open Research`、`PaperQA2`、`STORM`、`GPT Researcher` | 适合搭建“搜索、证据抽取、引用汇总、长报告生成”这一段前链路。 |
+| 文献综述与 landscape | `RTI`、`Open Research`、`PaperQA2`、`STORM`、`open_deep_research`、`GPT Researcher` | 适合搭建“搜索、证据抽取、引用汇总、长报告生成”这一段前链路。 |
 | novelty 与 idea 生成 | `AI Co-Scientist`、`HypoGeniC`、`ResearchAgent`、`VirSci`、`llm4novelty`、`ReviewAdvisor` | 适合构造“研究空白发现、候选想法扩展、审稿式自检”的中段流程。 |
-| 自动实验与数据科学闭环 | `RD-Agent`、`AgentLaboratory`、`AI-Scientist-v2`、`OpenHands SDK` | 适合搭建“实验计划 -> 代码实现 -> 运行反馈 -> 结果修正”的执行环。 |
-| 生物医药 / 科学发现 | `Robin`、`Station`、`Aviary`、`LAB-Bench`、`BixBench` | 更贴近科学发现、实验推理和领域型 agent 评测。 |
+| 自动实验与数据科学闭环 | `RD-Agent`、`AgentLaboratory`、`AI-Scientist-v2`、`CMBAgent`、`OpenHands SDK` | 适合搭建“实验计划 -> 代码实现 -> 运行反馈 -> 结果修正”的执行环。 |
+| 生物医药 / 科学发现 | `Robin`、`Station`、`Aviary`、`LAB-Bench`、`NewtonBench` | 更贴近科学发现、实验推理和领域型 agent 评测。 |
 | 写作、审稿与转投 | `Open Research`、`OpenDraft`、`OpenReview`、[模板迁移与投稿](../97-模板与投稿/模板迁移与投稿.md) | 适合覆盖草稿生成、review response、模板迁移与投稿后链路。 |
 
 ## 4. 观察这些系统时最值得抽象出来的公共结构
