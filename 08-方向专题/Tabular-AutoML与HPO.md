@@ -57,6 +57,7 @@
 | TabArena | living tabular benchmark | 更适合持续维护和追踪 tabular leaderboard。 | [autogluon/tabarena](https://github.com/autogluon/tabarena) |
 | AutoMLBenchmark | benchmarking 框架 | 适合系统比较 AutoML workflow。 | [openml/automlbenchmark](https://github.com/openml/automlbenchmark) |
 | YAHPO Gym | HPO benchmark gym | 适合多保真搜索与预算敏感优化实验。 | [slds-lmu/yahpo_gym](https://github.com/slds-lmu/yahpo_gym) |
+| HPOBench | HPO benchmark library | 适合比较多保真 HPO 与可复现实验设置。 | [automl/HPOBench](https://github.com/automl/HPOBench) |
 | AutoGluon | AutoML 框架 | 适合 tabular、multimodal、time series 快速 baseline。 | [autogluon/autogluon](https://github.com/autogluon/autogluon) |
 | FLAML | 轻量 AutoML 框架 | 适合成本敏感搜索与快速迭代。 | [microsoft/FLAML](https://github.com/microsoft/FLAML) |
 | auto-sklearn | AutoML 框架 | 经典 tabular AutoML 基线。 | [automl/auto-sklearn](https://github.com/automl/auto-sklearn) |
@@ -72,7 +73,12 @@
 4. `Jupyter MCP + GitHub MCP + dbhub`
    适合做 notebook、代码和结果表联动检查。
 
-## 五、仓库内延伸阅读
+## 五、如果这页的 Skills / MCP 还不够
+
+- Skills：优先回看 [91-Skills/科研工程与实验Skills](../91-Skills/科研工程与实验Skills.md) 与 [91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md)。
+- MCP：优先回看 [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md) 与 [92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md)。
+
+## 六、仓库内延伸阅读
 
 - [05-实验执行、复现与评测](../05-实验执行、复现与评测/README.md)
 - [98-全局索引/实验与Benchmark索引](../98-全局索引/实验与Benchmark索引.md)

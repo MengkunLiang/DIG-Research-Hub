@@ -40,9 +40,11 @@
 | 科学计算与领域Skills | 仓库内附录 | AI4Science、scientific computing、领域数据和专业工作流的 Skill 入口。 | [91-Skills/科学计算与领域Skills](../91-Skills/科学计算与领域Skills.md) |
 | 科研工程与实验Skills | 仓库内附录 | AI/ML、实验追踪、训练、评测与工程自动化相关 Skill 入口。 | [91-Skills/科研工程与实验Skills](../91-Skills/科研工程与实验Skills.md) |
 | 科研写作与文献Skills | 仓库内附录 | novelty、review、综述、写作与证据回查相关 Skill 入口。 | [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md) |
+| Skill发现平台与精品合集 | 仓库内附录 | 用来继续扩展方向专题相关 community skills 与精品技能库。 | [91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md) |
 | 文献检索与知识库MCP | 仓库内附录 | OpenAlex、OpenReview、paper-search、Zotero 等文献与知识数据层入口。 | [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md) |
 | 实验执行与数据工程MCP | 仓库内附录 | Jupyter、GitHub、Kaggle、Optuna、Prefect、ZenML 等执行层入口。 | [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md) |
 | 生物医药与专利MCP | 仓库内附录 | 生物医药、专利、生命科学数据库与科技创新数据入口。 | [92-MCP/生物医药与专利MCP](../92-MCP/生物医药与专利MCP.md) |
+| MCP标准与发现平台 | 仓库内附录 | 用来继续扩展聚合站、标准实现与通用平台类 MCP。 | [92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md) |
 
 ## 三、外部整合入口
 
@@ -60,3 +62,9 @@
 - [05-实验执行、复现与评测](../05-实验执行、复现与评测/README.md)
 - [06-写作、审稿与投稿](../06-写作、审稿与投稿/README.md)
 - [07-安全与治理](../07-安全与治理/README.md)
+
+## 五、如果专题页的 Skills / MCP 还不够
+
+- Skills 继续补：优先回看 [91-Skills/科学计算与领域Skills](../91-Skills/科学计算与领域Skills.md)、[91-Skills/科研工程与实验Skills](../91-Skills/科研工程与实验Skills.md)、[91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md)。
+- MCP 继续补：优先回看 [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md)、[92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md)、[92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md)。
+- 任务主线回链：如果你已经知道自己在科研流程中的位置，直接回到 [09-按科研任务导航](../09-按科研任务导航/README.md) 选择当前阶段入口。

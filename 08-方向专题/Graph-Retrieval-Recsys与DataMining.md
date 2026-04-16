@@ -55,8 +55,10 @@
 | GRB | graph robustness benchmark | 适合补图鲁棒性与对抗评测。 | [THUDM/grb](https://github.com/THUDM/grb) |
 | PyKEEN | 知识图谱表示学习 | KGE、link prediction 与知识图谱研究。 | [pykeen/pykeen](https://github.com/pykeen/pykeen) |
 | Pyserini | 检索研究工具箱 | dense / sparse retrieval、reranking 与 IR 实验底座。 | [castorini/pyserini](https://github.com/castorini/pyserini) |
+| Tevatron | dense retrieval toolkit | 适合大规模 dense retrieval、跨语言与多模态检索实验。 | [texttron/tevatron](https://github.com/texttron/tevatron) |
 | BEIR | 检索 benchmark | 跨域 IR 和 RAG retriever 评测。 | [beir-cellar/beir](https://github.com/beir-cellar/beir) |
 | MTEB | embedding benchmark | 表征学习、语义检索和 embedding 评测。 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) |
+| ranx | ranking evaluation library | 适合排序评测、统计检验、fusion 与论文结果表导出。 | [AmenRa/ranx](https://github.com/AmenRa/ranx) |
 | RecBole | 推荐系统框架 | 推荐算法、数据处理和评测流程的主流底座。 | [RUCAIBox/RecBole](https://github.com/RUCAIBox/RecBole) |
 | Cornac | 推荐系统框架 | 更偏研究原型、多模态推荐和对照实验。 | [PreferredAI/cornac](https://github.com/PreferredAI/cornac) |
 
@@ -80,7 +82,12 @@
 4. `OpenAlex MCP + Paper Search MCP + GitMCP`
    适合补 benchmark 论文、代码仓库和最新工作。
 
-## 六、仓库内延伸阅读
+## 六、如果这页的 Skills / MCP 还不够
+
+- Skills：优先回看 [91-Skills/科研工程与实验Skills](../91-Skills/科研工程与实验Skills.md)、[91-Skills/科学计算与领域Skills](../91-Skills/科学计算与领域Skills.md)。
+- MCP：优先回看 [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md)、[92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md)、[92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md)。
+
+## 七、仓库内延伸阅读
 
 - [05-实验执行、复现与评测](../05-实验执行、复现与评测/README.md)
 - [98-全局索引/实验与Benchmark索引](../98-全局索引/实验与Benchmark索引.md)

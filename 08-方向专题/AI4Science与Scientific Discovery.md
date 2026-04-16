@@ -24,6 +24,7 @@
 | Claude Scientific Skills / Scientific Agent Skills | 科学技能总库 | 适合补 scientific databases、Python packages、research methodology 与领域流程。 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)、[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |
 | Materials Simulation Skills | 领域技能包 | 适合材料模拟、数值稳定性、solver 和 simulation workflow。 | [HeshamFS/materials-simulation-skills](https://github.com/HeshamFS/materials-simulation-skills) |
 | 生物医药与专利MCP | 仓库内附录 | 生命科学、药物、专利和创新数据的 MCP 入口。 | [92-MCP/生物医药与专利MCP](../92-MCP/生物医药与专利MCP.md) |
+| Hugging Face MCP Server | 模型与数据资产 MCP | 适合回查模型卡、数据集卡和 scientific model / dataset hub。 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) |
 | Jupyter MCP / GitHub MCP / Paper Search MCP | 执行与检索 MCP | 适合把 notebook、代码仓库和 scientific literature 接进同一工作流。 | [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server)、[github/github-mcp-server](https://github.com/github/github-mcp-server)、[openags/paper-search-mcp](https://github.com/openags/paper-search-mcp) |
 
 ## 二、scientific discovery agents 与 benchmark
@@ -36,6 +37,7 @@
 | SciAgentsDiscovery | scientific discovery agents | 知识图谱 + 多 agent 科学发现系统。 | [lamm-mit/SciAgentsDiscovery](https://github.com/lamm-mit/SciAgentsDiscovery) |
 | ScienceAgentBench | benchmark | 适合评测 scientific tool use 与科学任务型代理。 | [OSU-NLP-Group/ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench) |
 | ResearcherBench | benchmark | 适合评测深研究、长链推理与研究工作流。 | [GAIR-NLP/ResearcherBench](https://github.com/GAIR-NLP/ResearcherBench) |
+| LiveDRBench | benchmark | 适合评测 deep research 与长链科学研究任务。 | [THUDM/LiveDRBench](https://github.com/THUDM/LiveDRBench) |
 | NewtonBench | benchmark | scientific discovery / scientific reasoning 方向的 benchmark 入口。 | [HKUST-KnowComp/NewtonBench](https://github.com/HKUST-KnowComp/NewtonBench) |
 | Aviary / LAB-Bench / BixBench | scientific benchmark | 适合科学任务、实验室场景、生物科学与 bench scientist 风格评测。 | [Future-House/aviary](https://github.com/Future-House/aviary)、[Future-House/LAB-Bench](https://github.com/Future-House/LAB-Bench)、[Future-House/BixBench](https://github.com/Future-House/BixBench) |
 
@@ -47,6 +49,8 @@
 | --- | --- | --- | --- |
 | DeepChem | 科学机器学习框架 | 化学、药物发现、分子建模和 scientific ML 的高频入口。 | [deepchem/deepchem](https://github.com/deepchem/deepchem) |
 | RDKit | 化学信息学工具箱 | 分子表示、分子特征、反应和化学数据处理的核心底座。 | [rdkit/rdkit](https://github.com/rdkit/rdkit) |
+| Chemprop | 分子性质预测框架 | 适合分子性质预测、QSAR/QSPR 与 message passing 基线。 | [chemprop/chemprop](https://github.com/chemprop/chemprop) |
+| TorchDrug | 药物发现与几何学习框架 | 适合 drug discovery、protein / molecule representation 与图学习。 | [DeepGraphLearning/torchdrug](https://github.com/DeepGraphLearning/torchdrug) |
 | TDC | Therapeutics Data Commons | 药物发现、治疗科学与生物医药 benchmark 入口。 | [TDC](https://tdcommons.ai/)、[mims-harvard/TDC](https://github.com/mims-harvard/TDC) |
 
 ### 2. Materials Science
@@ -78,7 +82,12 @@
 4. `MLE-bench + MLGym + ResearcherBench + NewtonBench`
    适合系统比较 AI scientist / research agent / scientific discovery agent。
 
-## 五、外部整合入口
+## 五、如果这页的 Skills / MCP 还不够
+
+- Skills：优先回看 [91-Skills/科学计算与领域Skills](../91-Skills/科学计算与领域Skills.md)、[91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md)。
+- MCP：优先回看 [92-MCP/生物医药与专利MCP](../92-MCP/生物医药与专利MCP.md)、[92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md)、[92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md)。
+
+## 六、外部整合入口
 
 | 资源 | 类型 | 更适合的用途 | 链接 |
 | --- | --- | --- | --- |
@@ -86,7 +95,7 @@
 | Awesome-AI-Scientist-Papers | 外部合集 | AI scientist、scientific discovery agents 和 benchmark 入口。 | [openags/Awesome-AI-Scientist-Papers](https://github.com/openags/Awesome-AI-Scientist-Papers) |
 | AI-4-Research | 外部合集 | research workflow、scientific reasoning 和 benchmark 资料入口。 | [AI-4-Research/AI-4-Research.github.io](https://github.com/AI-4-Research/AI-4-Research.github.io) |
 
-## 六、仓库内延伸阅读
+## 七、仓库内延伸阅读
 
 - [AI-ML-DataMining资源](./AI-ML-DataMining资源.md)
 - [科研新颖性与Idea生成](./科研新颖性与Idea生成.md)

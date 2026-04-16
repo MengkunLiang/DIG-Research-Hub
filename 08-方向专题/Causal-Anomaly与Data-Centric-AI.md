@@ -53,9 +53,11 @@
 | PyOD | 异常检测工具箱 | 建立 outlier / anomaly detection 稳定 baseline。 | [yzhao062/pyod](https://github.com/yzhao062/pyod) |
 | PyGOD | 图异常检测 | 图异常、欺诈、风控与 relational anomaly 研究入口。 | [pygod-team/pygod](https://github.com/pygod-team/pygod) |
 | ADBench | 异常检测 benchmark | 适合比较异常检测算法、噪声设置和鲁棒性。 | [Minqi824/ADBench](https://github.com/Minqi824/ADBench) |
+| cleanlab | data-centric AI toolkit | 适合数据质量诊断、标签问题发现和数据中心实验迭代。 | [cleanlab/cleanlab](https://github.com/cleanlab/cleanlab) |
 | DoWhy | 因果推断框架 | 适合把识别、估计和 refutation 写成可追溯流程。 | [py-why/dowhy](https://github.com/py-why/dowhy) |
 | causal-learn | 因果发现 | 适合探索变量结构与机制图。 | [py-why/causal-learn](https://github.com/py-why/causal-learn) |
 | EconML / DoubleML | 异质性效应与双重机器学习 | 适合 treatment heterogeneity、政策评估与高维因果。 | [py-why/EconML](https://github.com/py-why/EconML)、[DoubleML](https://github.com/DoubleML/doubleml-for-py) |
+| Causica | end-to-end causal inference | 适合把因果发现、推断和深度学习决策流程接成一体。 | [microsoft/causica](https://github.com/microsoft/causica) |
 | CausalBench | 因果 benchmark | 因果发现与因果机制比较的公开 benchmark。 | [ravivanpong/CausalBench](https://github.com/ravivanpong/CausalBench) |
 | DataPerf | data-centric AI | 适合补数据质量、数据选择与 dataset-centric 评测。 | [DataPerf](https://www.dataperf.org/) |
 | MLPerf | 系统性能 benchmark | 适合补训练与推理性能维度。 | [MLPerf Training](https://mlcommons.org/benchmarks/training/)、[MLPerf Inference](https://mlcommons.org/working-groups/benchmarks/inference/) |
@@ -76,10 +78,15 @@
    适合因果机制、因果发现和异质性效应研究。
 3. `DataPerf + MLPerf + DVC`
    适合把数据与系统性能维度纳入实验闭环。
-4. `Jupyter MCP + dbhub + Chart MCP`
-   适合分析、查询和结果可视化。
+4. `cleanlab + Jupyter MCP + dbhub + Chart MCP`
+   适合数据质量诊断、分析、查询和结果可视化。
 
-## 六、仓库内延伸阅读
+## 六、如果这页的 Skills / MCP 还不够
+
+- Skills：优先回看 [91-Skills/科研工程与实验Skills](../91-Skills/科研工程与实验Skills.md)、[91-Skills/科学计算与领域Skills](../91-Skills/科学计算与领域Skills.md)。
+- MCP：优先回看 [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md)、[92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md)、[92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md)。
+
+## 七、仓库内延伸阅读
 
 - [05-实验执行、复现与评测](../05-实验执行、复现与评测/README.md)
 - [08-方向专题/Computational-Design-Science与管理技术交叉](./Computational-Design-Science与管理技术交叉.md)

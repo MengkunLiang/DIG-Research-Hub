@@ -22,6 +22,7 @@
 | --- | --- | --- | --- |
 | 科学计算与领域Skills | 仓库内附录 | 数据分析、网络分析、统计建模和领域数据库访问的 Skill 入口。 | [91-Skills/科学计算与领域Skills](../91-Skills/科学计算与领域Skills.md) |
 | 科研写作与文献Skills | 仓库内附录 | 综述、review mining、研究叙事和证据回查入口。 | [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md) |
+| Skill发现平台与精品合集 | 仓库内附录 | 适合继续补研究分析、社会科学、workflow 与方法论类 skills。 | [91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md) |
 | Claude Scientific Skills / Scientific Agent Skills | 科学技能总库 | 更适合补数据库查询、统计分析、network analysis、research methodology 和 scientific writing。 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)、[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |
 | AI Research SKILLs | 研究工程技能库 | 适合把分析脚本、数据预处理、实验工程和可视化接成统一研究流程。 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) |
 
@@ -31,6 +32,7 @@
 | --- | --- | --- | --- |
 | 文献检索与知识库MCP | 仓库内附录 | OpenAlex、paper-search、OpenReview、Zotero 等文献与知识图谱入口。 | [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md) |
 | 实验执行与数据工程MCP | 仓库内附录 | Jupyter、GitHub、DuckDB、Chart、Kaggle 等执行和分析层入口。 | [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md) |
+| MCP标准与发现平台 | 仓库内附录 | 适合继续找 web search、知识图谱与平台连接类 MCP。 | [92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md) |
 | Paper Search MCP / OpenAlex MCP / OpenReview MCP | 学术与审稿 MCP | 适合追踪论文、审稿、作者、机构与主题网络。 | [openags/paper-search-mcp](https://github.com/openags/paper-search-mcp)、[hbiaou/openalex-mcp](https://github.com/hbiaou/openalex-mcp)、[openreview/openreview-mcp](https://github.com/openreview/openreview-mcp) |
 | Zotero MCP / GitHub MCP / Jupyter MCP | 知识库与执行 MCP | 适合把文献库、代码、notebook 和实验脚本接成统一工作流。 | [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp)、[github/github-mcp-server](https://github.com/github/github-mcp-server)、[datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) |
 
@@ -53,6 +55,7 @@
 | causal-learn | 因果发现 | 探索变量结构和潜在机制图。 | [py-why/causal-learn](https://github.com/py-why/causal-learn) |
 | statsmodels / linearmodels | 统计与面板建模 | DID、IV、固定效应、事件研究和面板回归的稳健入口。 | [statsmodels](https://www.statsmodels.org/)、[linearmodels](https://bashtage.github.io/linearmodels/) |
 | PyMC | 贝叶斯建模 | 适合层级模型、多源先验和机制不确定场景。 | [PyMC](https://www.pymc.io/) |
+| Mesa | agent-based modeling framework | 适合做组织行为、平台治理、扩散与机制模拟原型。 | [mesa/mesa](https://github.com/mesa/mesa) |
 
 ## 五、文本、主题、网络与知识结构分析
 
@@ -65,11 +68,11 @@
 
 ## 六、三条高价值研究路线
 
-1. `OpenAlex + Lens + USPTO Open Data + BERTopic + NetworkX + DoWhy`
+1. `OpenAlex + OpenCitations + Lens + PatentsView + BERTopic + NetworkX + DoWhy`
    适合技术融合、知识重组、论文到专利的知识流动研究。
 2. `平台日志 / 行为数据 + oTree / jsPsych + statsmodels + EconML`
    适合平台治理、AI 辅助决策、解释与排序对用户行为的影响研究。
-3. `OpenReview + OpenAlex + OSF + NLPeer + linearmodels / PyMC`
+3. `OpenReview + OpenAlex + OSF + NLPeer + linearmodels / PyMC + Mesa`
    适合开放科学、科研组织行为、审稿机制和创新筛选研究。
 
 ## 七、外部整合入口
@@ -81,7 +84,12 @@
 | awesome-causal-inference | 外部合集 | 因果推断方法、课程、软件和论文入口。 | [matteocourthoud/awesome-causal-inference](https://github.com/matteocourthoud/awesome-causal-inference) |
 | Local Citation Network | 外部工具与资料 | 引文网络分析和本地引文图谱入口。 | [LocalCitationNetwork](https://github.com/LocalCitationNetwork/LocalCitationNetwork.github.io) |
 
-## 八、仓库内延伸阅读
+## 八、如果这页的 Skills / MCP 还不够
+
+- Skills：优先回看 [91-Skills/科学计算与领域Skills](../91-Skills/科学计算与领域Skills.md)、[91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md)、[91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md)。
+- MCP：优先回看 [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md)、[92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md)、[92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md)。
+
+## 九、仓库内延伸阅读
 
 - [科研新颖性与Idea生成](./科研新颖性与Idea生成.md)
 - [开放学术、创新与行为实验资源](./开放学术、创新与行为实验资源.md)
