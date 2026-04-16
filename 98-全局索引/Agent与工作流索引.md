@@ -34,8 +34,7 @@
 
 - [AweAI-Team/AiScientist](https://github.com/AweAI-Team/AiScientist)
 - [HKUDS/AI-Researcher](https://github.com/HKUDS/AI-Researcher)
-- [ResearchAgent (NAACL 2025)](https://aclanthology.org/2025.naacl-long.342/)
-- [InternScience/Virtual-Scientists](https://github.com/InternScience/Virtual-Scientists)
+- [open-sciencelab/Virtual-Scientists](https://github.com/open-sciencelab/Virtual-Scientists)
 - [Open Research](https://www.open-research.info/)
 - [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research)
 - [RTI](https://github.com/yrc-better/RTI)
@@ -52,6 +51,10 @@
 - [HKUST-KnowComp/NewtonBench](https://github.com/HKUST-KnowComp/NewtonBench)
 - [hkust-nlp/Toolathlon](https://github.com/hkust-nlp/Toolathlon)
 - [hkust-nlp/AgentBoard](https://github.com/hkust-nlp/AgentBoard)
+
+## 论文公开但暂未检到官方开源仓库
+
+- [ResearchAgent (NAACL 2025)](https://aclanthology.org/2025.naacl-long.342/)
 
 ## 推荐配合使用
 
