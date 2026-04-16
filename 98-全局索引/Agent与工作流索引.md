@@ -32,11 +32,16 @@
 
 ## 高频公开资源
 
+- [AweAI-Team/AiScientist](https://github.com/AweAI-Team/AiScientist)
+- [HKUDS/AI-Researcher](https://github.com/HKUDS/AI-Researcher)
+- [ResearchAgent (NAACL 2025)](https://aclanthology.org/2025.naacl-long.342/)
+- [InternScience/Virtual-Scientists](https://github.com/InternScience/Virtual-Scientists)
 - [Open Research](https://www.open-research.info/)
 - [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research)
 - [RTI](https://github.com/yrc-better/RTI)
 - [PaperQA2](https://github.com/Future-House/paper-qa)
 - [RD-Agent](https://github.com/microsoft/RD-Agent)
+- [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist)
 - [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2)
 - [AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory)
 - [CMBAgents/cmbagent](https://github.com/CMBAgents/cmbagent)
