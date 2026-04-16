@@ -26,6 +26,7 @@
 | OpenAlex | 开放学术图谱 | 适合作者、机构、主题和引文网络分析。 | [OpenAlex](https://openalex.org/) |
 | Semantic Scholar | 学术搜索与引文 | 适合引用、相似论文与作者关系追踪。 | [Semantic Scholar](https://www.semanticscholar.org/) |
 | Crossref | DOI 与出版元数据 | 适合补 DOI、出版信息和元数据核对。 | [Crossref](https://www.crossref.org/) |
+| OpenCitations | 开放引文基础设施 | 适合开放引文网络、citation linkage 与 bibliometric 分析。 | [OpenCitations](https://opencitations.net/) |
 | ResearchRabbit | 研究地图工具 | 适合做论文网络探索和主题扩展。 | [ResearchRabbit](https://www.researchrabbit.ai/) |
 | GROBID | PDF 结构解析 | 适合把 PDF 转成结构化学术文档。 | [kermitt2/grobid](https://github.com/kermitt2/grobid) |
 | Zotero | 文献管理 | 适合做文库、标签、笔记和引用输出。 | [Zotero](https://www.zotero.org/) |
@@ -35,3 +36,8 @@
 - [02-文献检索与单篇精读](../02-文献检索与单篇精读/README.md)
 - [03-知识管理与证据沉淀](../03-知识管理与证据沉淀/README.md)
 - [98-全局索引/文献与知识索引](../98-全局索引/文献与知识索引.md)
+
+## 如果还不够
+
+- 继续补 `Skills / MCP`：优先回看 [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md)、[92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md)。
+- 继续按任务回主线：优先回看 [02-文献检索与单篇精读](../02-文献检索与单篇精读/README.md)、[03-知识管理与证据沉淀](../03-知识管理与证据沉淀/README.md)、[04-新颖性判断与综述](../04-新颖性判断与综述/README.md)。
